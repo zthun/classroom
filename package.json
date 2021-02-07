@@ -1,0 +1,21 @@
+{
+  "name": "@zthun/claszroom",
+  "version": "0.0.0",
+  "description": "Documentation courses on how to do software development for beginners.",
+  "author": "Anthony Bonta",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/claszroom"
+  },
+  "scripts": {
+    "clean": "rimraf dist reports *.tgz *.log",
+    "lint": "lint-janitor",
+    "make": "yarn clean && yarn lint"
+  },
+  "devDependencies": {
+    "@zthun/lint-janitor": "^8.0.0"
+  },
+  "dependencies": {}
+}

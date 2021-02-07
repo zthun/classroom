@@ -1,0 +1,3 @@
+{
+  "extends": "./node_modules/@zthun/lint-janitor/lint/.markdownlintrc"
+}
