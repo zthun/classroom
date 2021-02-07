@@ -1,24 +1,28 @@
 {
-  "version": "0.1",
-  "language": "en",
-  "words": ["claszroom"],
-  // See https://www.npmjs.com/package/cspell for available dictionaries
-  "dictionaries": [
-    // General
-    "en_US",
-    "companies",
-    "softwareTerms",
-    // Programming language
-    "node",
-    "html",
-    "css",
-    "bash",
-    "csharp",
-    "typescript",
-    // Misc
-    "fonts",
-    "filetypes",
-    "npm"
-  ],
-  "flagWords": []
+    "version": "0.1",
+    "language": "en",
+    "words": [
+        "bootcamps",
+        "claszroom",
+        "HIPAA",
+        "Sinek"
+    ],
+    "dictionaries": [
+        // General
+        "en_US",
+        "companies",
+        "softwareTerms",
+        // Programming language
+        "node",
+        "html",
+        "css",
+        "bash",
+        "csharp",
+        "typescript",
+        // Misc
+        "fonts",
+        "filetypes",
+        "npm"
+    ],
+    "flagWords": []
 }
