@@ -1,4 +1,4 @@
-# Ask Yourself Why?
+# Ask Yourself Why
 
 Have you ever wondered why you are doing the things you do? Is it because your boss or teacher gave you an assignment? Or have you had an immediate problem that required a quick solution? These situations happen all of the time. What's interesting is we, as human beings, tend to not question the rules of authority, and it's not surprising that this is the standard. Ever since grade school, we are told "I'm the boss; you do what I say" from our parents and teachers. This strategy tends to work very well with children. [Children's brains are not fully developed for abstract thought, and the full reasoning for this type of thinking does not occur in children until the ages of 11-16](https://www.goodtherapy.org/blog/psychpedia/abstract-thinking). However, once we reach the age of reasoning and thought, we can comprehend more abstractions and thus, we begin to question more.
 
@@ -38,7 +38,7 @@ With this in mind, not every line, statement, pattern, or design may come with a
 
 In the reverse sense, it is also possible you are being asked why on your position. If you are unsure, don't use fear or laziness as an answer. A perfectly acceptable answer is "I don't know." I don't know gets others to think and discuss. I don't know is what raises curiosity. If you are going down a path and you find out you are just going through the motions, ask yourself why you are doing what you're doing and be ok with an answer of "I don't know." This will get you to think about the real answer and may prompt you to slow down, and research the potential results of your work.
 
-## So Why Claszroom?
+## So Why Claszroom
 
 Today's college and education system is broken. The average cost of tuition in the US is [an outrageous $26000 per academic year as of 2021](https://educationdata.org/average-cost-of-college). The total amount of student debt [is over 1.7 trillion dollars](https://studentloanhero.com/student-loan-debt-statistics/). Is this what it's come to? A lifetime of slavery to debt collectors for an education.
 
