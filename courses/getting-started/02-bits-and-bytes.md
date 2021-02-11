@@ -1,6 +1,6 @@
 # Bits and Bytes
 
-When working with any kind of computational systems, you are most surly going to come across the concept of a bit, which is short for a binary digit. You can think of a bit as the most basic unit of information in computing. A bit value is either 1 or 0, on or off, true or false, + or -, respectively. How you represent the value does not matter. The most important understanding is that a bit is simply one of two possible values.
+When working with any kind of computational systems, you are most surely going to come across the concept of a bit, which is short for a binary digit. You can think of a bit as the most basic unit of information in computing. A bit value is either 1 or 0, on or off, true or false, + or -, respectively. How you represent the value does not matter. The most important understanding is that a bit is simply one of two possible values.
 
 Every piece of information you have on your computer is represented by a series of bits. Your hard drive is just a collection of large _base 2_ numbers. Your processor understands commands given by _base 2_ codes.
 
@@ -36,21 +36,21 @@ Hold on. What if we did something that was beyond _base 10_? How about _base 16_
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
 ```
 
-So when you see numbers written like 22FE702A, you can almost assume they are written in _base 16_ as they include the necessary characters. Also, when representing a _base X_ number, using latin characters are case insensitive, so 22AF is the same as 22af. Lower case vs upper case is irrelevant. If you are ever writing base 16, use the format of 0x#####.
+So when you see numbers written like 22FE702A, you can almost always assume they are written in _base 16_ as they include the necessary alphabet. Characters are case insensitive; 22AF is the same as 22af, and if you are ever writing base 16, prepend the number with 0x.
 
-> You will see the notation 0x a lot. Some languages will use # to denote base 16 as well, especially in css and graphics applications regarding colors. Generally though, the standard way of telling people that a number is base 16 is to put a 0x in front of the number. This will remove any confusion as to what base the number is as 0x1234 is a completely different number than straight 1234. In math, the number would be written as 1234<sub>16</sub> but when you are writing applications, you don't have subscript keys on your keyboard so we use different notations to specify what base the number is in. You will only ever use base 10 and base 16 in almost all languages.
+> You will see the notation 0x a lot. Some languages will use # to denote base 16 as well, especially in css and graphics applications regarding colors. Generally though, the standard way of telling people that a number is base 16 is to put a 0x in front of the number. This will remove any confusion as to what base the number is; 0x1234 is a different number from 1234. In math, the number would be written as 1234<sub>16</sub> but when you are writing applications, you don't have subscript keys on your keyboard so we use different notations to specify what base the number is in. You will only ever use base 10 and base 16 in almost all languages.
 
 ## Base X Translations
 
-For an easy way to calculate the value of a base X number, you can just use a conversion [calculator](https://www.rapidtables.com/convert/number/base-converter.html). Any of them will do. You can find apps for your phone that will do it for you. Math teachers in the 90s used to tell us that we wouldn't have a calculator with us at all times; guess the joke is on them. However, for educational purposes, here is the manual steps to convert any base number to the familiar base 10 number.
+For an easy way to calculate the value of a base X number, you can use a conversion [calculator](https://www.rapidtables.com/convert/number/base-converter.html). Any of them will do. You can find apps for your phone that will do it for you. Math teachers in the 90s used to tell us that we wouldn't have a calculator with us at all times; guess the joke was on them. However, for educational purposes, here is the manual steps to convert any base X number to base 10.
 
-So I want you to take any base that you want, say base 2. Let's look at how we would convert the number 1101<sub>2</sub> to base 10.
+Let's look at how we would convert the number 1101<sub>2</sub> to base 10.
 
 | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
 | ------------- | ------------- | ------------- | ------------- |
 | 1             | 1             | 0             | 1             |
 
-When you are converting any number, you are going to be looking at the position of the digit from the left. **Always start at 0**. So for this table, we would basically start at either the left or the right, multiple the top to the bottom, and add the numbers together. So in this case, it looks like
+When you are converting any number, you are going to be looking at the position of the digit from the right. **Always start at 0**. So for this table, multiple the top and the bottom, then add all of the numbers together. So in this case, it looks like
 
 (2<sup>3</sup> x 1) + (2<sup>2</sup> x 1) + (2<sup>1</sup> x 0) + (2<sup>0</sup> x 1) =
 
