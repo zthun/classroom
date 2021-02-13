@@ -1,5 +1,7 @@
 # Appendix B
 
+One of the things you will find useful is converting from some kind of size unit to bytes. This happens a lot in various kinds of applications. In this appendix, you can find common values that you can use when making calculations how how to instantly convert from one unit to another.
+
 ## Decimal Byte Conversions
 
 | Unit | PB               | TB            | GB         | MB         | KB            | Byte             | Bits             |
