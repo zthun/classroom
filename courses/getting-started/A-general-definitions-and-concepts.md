@@ -1,4 +1,4 @@
-# General Definitions and Concepts
+# Appendix A
 
 Take this section as an appendix for generic and commonly used software terms, definitions, acronyms, and ideas.
 
