@@ -1,6 +1,6 @@
 # Intro to Logic
 
-When you hear the phrase, logical thinking, what comes to mind? A lot of folks may think of Spock from Star Trek, as the Vulcan race thrived on logical deduction and threw away all their emotions.
+When you hear the phrase, logical thinking, what comes to mind? A lot of folks may think of Spock from Star Trek; the Vulcans thrived on logical deduction and threw away all their emotions.
 
 When we talk about logic in the sense of programming, we don't think about it in terms of arguments, proofs, debates, or other such activities. In programming, when we talk about using logical expressions, we are mostly talking about using what is called [boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra); this form of mathematics was introduced by George Boole in his first book [_The Mathematical Analysis of Logic_](https://www.cambridge.org/core/books/mathematical-analysis-of-logic/BF7CDDC37F3F4FC698CEEE5F2FA0270C#).
 
@@ -55,7 +55,7 @@ Remember that when we start evaluating logical expressions, we are determining w
 
 ## Negation
 
-The negation operator, or _NOT_ for short, is the easiest to understand. This is a _unary_ operator in that is only acts on a single expression. To find the negation of an expression, take the final truthy value of the expression and reverse it.
+The negation operator, or _NOT_ for short, is the easiest to understand. This is a _unary_ operator in that it only acts on a single expression. To find the negation of an expression, take the final truthy value of the expression and reverse it.
 
 | A   | NOT |
 | --- | --- |
@@ -148,7 +148,7 @@ If we evaluated OR at a higher priority than AND, then this expression gets eval
 (1 OR 0) AND 0 = 1 AND 0 = 0
 ```
 
-So which is it? Well, like PEMDAS in mathematics, it depends on which generation your grew up in and whose opinion you ask. The general academic order of operations is as follows:
+So which is it? Well, like PEMDAS in mathematics, it depends on which generation you grew up in and whose opinion you ask. The general academic order of operations is as follows:
 
 1. P (Parenthesis)
 2. N (Not)
@@ -157,4 +157,4 @@ So which is it? Well, like PEMDAS in mathematics, it depends on which generation
 
 The pronunciation, _PuhNow_, doesn't exactly roll off the tongue very well, but that order of operations is generally accepted in most languages. For the general public and how properly structure expressions, simply don't do this. Always put parenthesis around same operator expressions that you want evaluated first and you will get it right every time.
 
-> If you asked for a direct citation of where the order of operations in logical operators comes from, you'll be hard pressed to find it. Not all languages are created in the same manner and some handle the order differently. This [Wikipedia](https://en.wikipedia.org/wiki/Order_of_operations#Programming_languages) describes the general consensus, but there is no official PEMDAS like structure given for this ordering. While it may be fun to watch people on Facebook go ape crazy arguing about what the solution is to a poorly formatted equation is, the best solution is to just make it explicit on what needs to be evaluated first if you have to switch the operator.
+> If you asked for a direct citation of where the order of operations in logical operators comes from, you'll be hard pressed to find it. Not all languages are created in the same manner and some handle the order differently. This [Wikipedia](https://en.wikipedia.org/wiki/Order_of_operations#Programming_languages) describes the general consensus, but there is no official PEMDAS like structure given for this ordering. While it may be fun to watch people on Facebook go ape crazy arguing about what the solution is to a poorly formatted equation, the best solution is to just make it explicit on what needs to be evaluated first if you have to switch the operator.
