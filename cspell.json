@@ -1,35 +1,35 @@
 {
-    "version": "0.1",
-    "language": "en",
-    "words": [
-        "bootcamps",
-        "claszroom",
-        "Gibi",
-        "HIPAA",
-        "Kibi",
-        "Mebi",
-        "Pebi",
-        "PEMDAS",
-        "Sinek",
-        "Tebi",
-        "Vulcans"
-    ],
-    "dictionaries": [
-        // General
-        "en_US",
-        "companies",
-        "softwareTerms",
-        // Programming language
-        "node",
-        "html",
-        "css",
-        "bash",
-        "csharp",
-        "typescript",
-        // Misc
-        "fonts",
-        "filetypes",
-        "npm"
-    ],
-    "flagWords": []
+  "version": "0.1",
+  "language": "en",
+  "words": [
+    "bootcamps",
+    "claszroom",
+    "Gibi",
+    "HIPAA",
+    "Intelli",
+    "javac",
+    "Kibi",
+    "Mebi",
+    "msbuild",
+    "Pebi",
+    "PEMDAS",
+    "Sinek",
+    "Tebi",
+    "Vulcans"
+  ],
+  "dictionaries": [
+    "en_US",
+    "companies",
+    "softwareTerms",
+    "node",
+    "html",
+    "css",
+    "bash",
+    "csharp",
+    "typescript",
+    "fonts",
+    "filetypes",
+    "npm"
+  ],
+  "flagWords": []
 }

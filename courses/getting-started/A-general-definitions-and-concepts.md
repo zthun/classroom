@@ -20,6 +20,9 @@ Over the course of everything we will be covering, you may encounter terms that 
 ## Concepts
 
 <dl>
+  <dt>DEBT</dt>
+  <dd>Deployment, Environment, Build/Debug, Test</dd>
+  <dd>A software principle to apply when learning new languages and technologies</dd>
   <dt>DRY (Don't Repeat Yourself)</dt>
   <dd>A very well known software principle which enforces the idea that copy/paste code is a bad solution and should be avoided.</dd>
 </dl>
