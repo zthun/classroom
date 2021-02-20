@@ -26,13 +26,13 @@ This is a gathering stage and often, you will have influence over what tools you
 
 The B in DEBT stands for build and debug. Chances are, your first revision of whatever your doing won't be a perfect masterpiece and you will need to go back and perform some kind of maintenance to fix issues and make it better. This answers the question of how to build what your building. When your working with programming languages, often times, this will be what compiler your are using. For example, the following table describes the names of the compilers and tools used to build and assemble common languages.
 
-| Language   | Compiler Tools              |
-| ---------- | --------------------------- |
-| C          | gcc, make                   |
-| C++        | g++, make                   |
-| C#         | msbuild                     |
-| Java       | javac, maven, gradle, ant   |
-| TypeScript | tsc, yarn, npm, gulp, grunt |
+| Language   | Compiler Tools                                                                                                                                                                                     |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C          | [gcc](https://gcc.gnu.org/), [make](https://www.gnu.org/software/make/)                                                                                                                            |
+| C++        | [g++](https://gcc.gnu.org/), [make](https://www.gnu.org/software/make/)                                                                                                                            |
+| C#         | [msbuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019)                                                                                                              |
+| Java       | [javac](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javac.html), [maven](https://maven.apache.org/), [gradle](https://gradle.org/), [ant](https://ant.apache.org/)               |
+| TypeScript | [tsc](https://www.typescriptlang.org/docs/handbook/compiler-options.html), [yarn](https://yarnpkg.com/), [npm](https://www.npmjs.com/), [gulp](https://gulpjs.com/), [grunt](https://gruntjs.com/) |
 
 You will almost always want the command line name of the compiler you're using.
 
@@ -40,13 +40,13 @@ You will almost always want the command line name of the compiler you're using.
 
 It can be fairly easy to identify what tools are being used to build your software by doing a simple google search. You'll find a lot of references to each tool and how to use them on the command line. However, the more important piece here is how to _debug_ your application. It's inevitable. Your software and creation will most likely not be perfect and you will have to go back through and step through your implementation. It's amazing how many developers you will meet that will refuse to use any form of debugger or have no idea what a debugger is. By choosing to become an expert in the debugger of your chosen technology, you will be a step up at squashing bugs and fast response times. The following are common debuggers for different languages.
 
-| Language   | Debugger                                         |
-| ---------- | ------------------------------------------------ |
-| C          | gdb, Visual Studio                               |
-| C++        | gdb, Visual Studio                               |
-| C#         | Visual Studio, Sharp Develop                     |
-| Java       | Eclipse, NetBeans, IntelliJ                      |
-| TypeScript | Google Chrome, Firefox, Visual Studio Code, Atom |
+| Language   | Debugger                                                                                                                                                                           |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C          | [gdb](https://www.gnu.org/software/gdb/), [Visual Studio](https://visualstudio.microsoft.com/)                                                                                     |
+| C++        | [gdb](https://www.gnu.org/software/gdb/), [Visual Studio](https://visualstudio.microsoft.com/)                                                                                     |
+| C#         | [Visual Studio](https://visualstudio.microsoft.com/)                                                                                                                               |
+| Java       | [Eclipse](https://www.eclipse.org/downloads/), [NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/)                                               |
+| TypeScript | [Google Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/) |
 
 Notice that the debugger tools often overlap with the environment tools. A good integrated development environment will often have a debugger with it. It is highly recommended to become very familiar with the debugger of the tool you've chosen.
 
@@ -70,11 +70,11 @@ This form of testing is not only for quality, but is mostly for developers. At t
 
 The following are some unit testing frameworks that you can use for different languages.
 
-| Language   | Frameworks                  |
-| ---------- | --------------------------- |
-| C#         | NUnit, XUnit                |
-| Java       | Junit                       |
-| TypeScript | Karma + Jasmine/Mocha, Jest |
+| Language   | Frameworks                                                                                                                                                  |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C#         | [NUnit](https://nunit.org/), [XUnit](https://xunit.net/)                                                                                                    |
+| Java       | [Junit](https://junit.org/)                                                                                                                                 |
+| TypeScript | [Karma](https://karma-runner.github.io/latest/index.html) + [Jasmine](https://jasmine.github.io/)/[Mocha](https://mochajs.org/), [Jest](https://jestjs.io/) |
 
 #### Integration Testing
 
@@ -92,12 +92,11 @@ E2E testing stands for _end to end_ testing and it is the level below a human op
 
 The following are some e2e testing frameworks for various application types. Note that e2e testing is not often dictated by the language, but instead by the type of product being developed.
 
-| Framework  | Generally Used For |
-| ---------- | ------------------ |
-| Selenium   | Web Apps           |
-| Protractor | Web Apps           |
-| Cucumber   | Multiple           |
-| SpecFlow   | Multiple           |
+| Framework                                                                                                       | Used For |
+| --------------------------------------------------------------------------------------------------------------- | -------- |
+| [Selenium](https://www.selenium.dev/)                                                                           | Web Apps |
+| [Protractor](https://www.protractortest.org/#/)                                                                 | Web Apps |
+| [Coded UI](https://docs.microsoft.com/en-us/visualstudio/test/use-ui-automation-to-test-your-code?view=vs-2019) | Desktop  |
 
 #### Manual Testing
 
@@ -117,3 +116,9 @@ A good example of this is in the everyday excel spreadsheet. Think for a second 
 2. Take the result from the sum cell and just divide by the total number.
 
 While going the route of #1 would work, you will essentially be duplicating effort when the solution is going to be more elegant with #2. Always think of how you can reuse tested and known solutions and build on top of what has already been built. You don't have to reinvent the wheel every time.
+
+## Recommendations
+
+At this point, you are ready to dive into the technology of your choice. Before you start, I would recommend you create an account at [Github](https://github.com). Just about all of the courses will be using [Git](https://git-scm.com/) as well for source control so it is recommended to install that as well.
+
+> Github is influential for experienced and new developers. It is one of the main source hubs on the internet for open source projects and is a fantastic place to engage the community and learn new things. If you aren't interested in starting your own projects, there are a lot of projects that you can dive deep into and contribute to.
