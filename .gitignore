@@ -105,3 +105,9 @@ dist
 
 # OS files
 .DS_Store
+
+# C-Sharp files
+.vs
+bin
+obj
+*.csproj.user
