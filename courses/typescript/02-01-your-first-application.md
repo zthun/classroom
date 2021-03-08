@@ -11,5 +11,8 @@ For the remainder of the tutorial, we are going to use [Visual Studio Code](http
 If you want to follow along with this, run the following commands.
 
 ```sh
-git clone
+git clone https://github.com/zthun/claszroom
+cd claszroom/samples/typescript/hello-world
+npm ci
+npm start
 ```
