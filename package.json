@@ -15,7 +15,8 @@
     "make": "yarn clean && yarn lint"
   },
   "devDependencies": {
-    "@zthun/lint-janitor": "^8.0.0"
+    "@zthun/lint-janitor": "^8.0.0",
+    "prettier": "^2.1.2"
   },
   "dependencies": {}
 }

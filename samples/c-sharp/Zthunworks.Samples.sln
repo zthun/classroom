@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.808.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zthunworks.DomainPrinter", "Zthunworks.DomainPrinter\Zthunworks.DomainPrinter.csproj", "{C70DCC75-A966-4CA6-85A9-53AB381E25D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zthunworks.HelloWorld", "Zthunworks.HelloWorld\Zthunworks.HelloWorld.csproj", "{3700E772-5BFE-451E-B4E0-223A9D00DC78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -15,6 +17,10 @@ Global
 		{C70DCC75-A966-4CA6-85A9-53AB381E25D4}.Debug|anycpu.Build.0 = Debug|anycpu
 		{C70DCC75-A966-4CA6-85A9-53AB381E25D4}.Release|anycpu.ActiveCfg = Release|anycpu
 		{C70DCC75-A966-4CA6-85A9-53AB381E25D4}.Release|anycpu.Build.0 = Release|anycpu
+		{3700E772-5BFE-451E-B4E0-223A9D00DC78}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3700E772-5BFE-451E-B4E0-223A9D00DC78}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3700E772-5BFE-451E-B4E0-223A9D00DC78}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3700E772-5BFE-451E-B4E0-223A9D00DC78}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
