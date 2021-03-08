@@ -1,7 +1,7 @@
 {
-  "name": "@zthun/interviews",
-  "version": "0.0.1",
-  "description": "A repository for demoing code for coding interviews.",
+  "name": "@zthun/claszroom-samples-domain-printer",
+  "version": "0.0.",
+  "description": "A sample application of printing out your domain name.",
   "author": "Anthony Bonta",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,11 @@
     "type": "git",
     "url": "https://github.com/zthun/interviews"
   },
+  "bin": {
+    "claszroom-samples-domain-printer": "./dist/index.js"
+  },
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {

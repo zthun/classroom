@@ -1,3 +1,3 @@
-/* istanbul ignore file */
+#!/usr/bin/env node
 
 console.log('Hello World');

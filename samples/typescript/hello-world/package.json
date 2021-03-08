@@ -1,7 +1,7 @@
 {
-  "name": "@zthun/interviews",
-  "version": "0.0.1",
-  "description": "A repository for demoing code for coding interviews.",
+  "name": "@zthun/claszroom-samples-hello-world",
+  "version": "0.0.0",
+  "description": "A sample hello world application.",
   "author": "Anthony Bonta",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,14 @@
     "type": "git",
     "url": "https://github.com/zthun/interviews"
   },
+  "bin": {
+    "claszroom-samples-hello-world": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {

@@ -190,10 +190,4 @@ End to end frameworks are a bit tricker as there aren't a lot that make debuggin
 
 ## Putting it Together
 
-At this point we're ready to start writing our first application with TypeScript. To prepare, I recommend you clone [this template:
-
-```sh
-git clone https://github.com/zthun/interviews
-```
-
-If you wish to fork the project on GitHub so you can make changes and add it to your own account, use the fork button at the top right so you can setup for practice.
+At this point we're ready to start writing our first application with TypeScript. We will be heavily using the samples found at the root of claszroom to structure our projects.
