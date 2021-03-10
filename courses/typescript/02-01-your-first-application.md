@@ -44,7 +44,7 @@ Add the following contents to it:
 
 ```json
 {
-  "name": "@my-domain/sample-hello-world",
+  "name": "@scope/sample-hello-world",
   "version": "0.0.0",
   "description": "A sample hello world application.",
   "author": "<Your name here>",
@@ -93,7 +93,7 @@ Let's start with the **package.json** file and look at what is actually inside t
 
 ```json
 {
-  "name": "@my-domain/sample-hello-world",
+  "name": "@scope/sample-hello-world",
   "version": "0.0.0",
   "description": "A sample hello world application.",
   "author": "<Your name here>",
@@ -101,7 +101,11 @@ Let's start with the **package.json** file and look at what is actually inside t
 }
 ```
 
-The above section of the file is mostly just metadata about your application. It helps describe who wrote the application, what is the name of the application, what is the version of the application. The version must follow a [SEMVAR](https://semver.org/) versioning scheme.
+The above section of the file is mostly just metadata about your application. It helps describe who wrote the application, what is the name of the application, what is the version of the application.
+
+The name is divided into two sections, the @scope and the actual name of the package. The @scope of the package helps with naming conflicts, so it's good to include one so you don't have issues later on. What you are allowed to
+
+The version must follow a [SEMVAR](https://semver.org/) versioning scheme.
 
 A quick summary of SEMVAR is as follows:
 
@@ -364,3 +368,127 @@ Hello World
 Now we have a way that we run our TypeScript directly so that while we are developing, we don't have to constantly transpile our code to check and debug it. However, as a rule of thumb, NEVER use ts-node for final released products.
 
 > Using ts-node is a great tool for development, but when you are running the final application, you want to run it through node. The ts-node application is not standard and you cannot assume that it exists on your end users systems. It is also slow. Every time you want to run the application, it must be transpiled again and having to do this every time the end user wants to run it is going to affect their experience with your application.
+
+## How Would Users Use This
+
+We have two fields from the **package.json** file that we skipped. Remember the _files_ and _bin_ keys? What could those be for. Remember that when we built our application, it output a _dist_ directory? Files looked like this.
+
+```json
+{
+  "files": ["dist"]
+}
+```
+
+Run the following two commands and notice what happens.
+
+```sh
+npm run build
+npm pack
+```
+
+> We're going to link up the two in just a second.
+
+Notice that what gets generated is a new [.tgz](https://fileinfo.com/extension/tgz) file. This is a tared up gunzip file. This gunzip file has the name of our package and the version. **This file is what gets deployed to NPM and is what users will receive when installing our package**. We are going to go ahead and extract this file just to see it's contents. On Windows, you can use [7-zip](https://www.7-zip.org/) to extract these files, and on Mac, double clicking on the file should auto extract the contents for you.
+
+> You don't have to for this lesson. But in the future, if you want to look at a .tgz file, you can use the above utilities to do it.
+
+The contents will look something similar to the following.
+
+- package
+  - dist
+    - index.d.ts
+    - index.js
+    - index.js.map
+  - package.json
+
+Does something look familiar in there. It has our dist folder. In our _files_ key, it specified the _dist_ folder. Thus **the files key tells npm to package up the list of files given by that key.** This is the statement that in order to run our application, we will need all of these files to run.
+
+Now the bin key is an interesting key.
+
+<details>
+  <summary>Do you remember what the '#!/usr/bin/env node' statement was?</summary>
+It is a pragma that tells the OS how to run the application.
+</details>
+
+This bin key is the reason we need the pragma statement as it allows us to specify a command line name to our application that will run it.
+
+```json
+{
+  "bin": {
+    "sample-hello-world": "./dist/index.js"
+  }
+}
+```
+
+Like we did with files, run the following commands.
+
+```sh
+npm run build
+npm pack
+sudo npm install -g scope-sample-hello-world-0.0.0.tgz
+```
+
+> We're again, linking all this up. However, remember that on Windows, there is no sudo command, so you may have to launch a new terminal as an administrator.
+
+What you have done here is a global install. Now try the following.
+
+```sh
+> sample-hello-world
+Hello World
+```
+
+Did you get that output? The **bin key specifies the alias name of the applications to run.**
+
+To remove the application, you have to uninstall the application by the name specified in the package.json.
+
+```sh
+sudo npm uninstall @scope/sample-hello-world -g
+```
+
+## Debugging
+
+Before we finish this chapter, the last major point is how do we debug these solutions? For our current purposes, we are going to use a launch.json. Visual Studio Code allows us to actually run a step debugger through our typescript code through a launch.json file and since our application is very basic, we can easily generate this file through vscode. To do this, open the debugger view in visual studio code.
+
+![Visual Studio Code Mac Debugger Setup](../../media/png/visual-studio-code-mac-debugger-setup.png)
+
+Click where it says _create a launch.json file_. In the drop down menu, select Node.js. Save the file. You don't actually have to make any changes to it for now. Notice that there is now a .vs directory with the launch.json file inside of it. It should look something like this.
+
+```json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/index.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+    }
+  ]
+}
+```
+
+> The main reason to create a launch.json file is to share it with other developers. This will help allow you and other developers to share debugging configurations. You can probably get by without creating one by just clicking the Run and Debug button, but having a launch.json is a good habit to get into.
+
+Now go back and open up your index.ts file that we were working with. Do you see those line number on the file? Hover over the small space to the left of those numbers. You should start to get some red dots that show up. When you click on a red dot, it permanently stays on the screen. This is called a breakpoint. Breakpoints are points that the execution of our application will halt when it is reached. Now click on the debugging view again and this time, click the little run button next to Launch Program.
+
+![Visual Studio Code Mac Debugger Setup](../../media/png/visual-studio-code-mac-debug.png)
+
+Notice that your application is halted on the breakpoint you set earlier. This is the view and method you will use when you need to step into and debug node applications.
+
+## Summary
+
+In this chapter, we learned the following
+
+1. How to setup a bare bones TypeScript project.
+2. What is the purpose of the package.json file.
+3. What is the purpose of the tsconfig.json file.
+4. How to install and run npm packages.
+5. How to debug and step into our application.
+
+In the next chapter, we will learn about variables, scoping, and basic TypeScript types.
