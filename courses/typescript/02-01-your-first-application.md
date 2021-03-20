@@ -276,7 +276,7 @@ npm run build
 sh: tsc: command not found
 ```
 
-Now we get into the heart of the NPM system, which are dependencies. NPM is just just for running scripts and publishing packages. It is also for handling our dependencies to our project. We'll do a much deeper dive into this later, but for now, we need to install the tsc application. We could do this globally if we wanted.
+Now we get into the heart of the NPM system, which are dependencies. NPM is not just for running scripts and publishing packages. It is also for handling our dependencies to our project. We'll do a much deeper dive into this later, but for now, we need to install the tsc application. We could do this globally if we wanted.
 
 ```sh
 sudo npm install -g typescript
