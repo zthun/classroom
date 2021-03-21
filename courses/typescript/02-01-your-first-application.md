@@ -491,4 +491,4 @@ In this chapter, we learned the following
 4. How to install and run npm packages.
 5. How to debug and step into our application.
 
-In the next chapter, we will learn about variables, scoping, and basic TypeScript types.
+In the next chapter, we will learn about functions, scoping, and declaring variables.
