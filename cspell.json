@@ -12,6 +12,7 @@
     "javac",
     "Kibi",
     "Kubernetes",
+    "markdownlint",
     "Mebi",
     "msbuild",
     "nupkg",
