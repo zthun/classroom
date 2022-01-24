@@ -10,13 +10,15 @@
     "url": "https://github.com/zthun/claszroom"
   },
   "scripts": {
-    "clean": "rimraf dist reports *.tgz *.log",
+    "clean": "rimraf dist reports \"*.tgz\" \"*.log\"",
     "lint": "lint-janitor",
     "make": "yarn clean && yarn lint"
   },
   "devDependencies": {
-    "@zthun/lint-janitor": "^8.0.0",
-    "prettier": "^2.1.2"
+    "@zthun/lint-janitor": "^11.1.0",
+    "@zthun/lint-janitor-config": "^11.1.1",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.2.0-rc.11"
 }
