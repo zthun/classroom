@@ -556,7 +556,6 @@ __metadata:
   dependencies:
     "@zthun/lint-janitor": ^11.1.0
     "@zthun/lint-janitor-config": ^11.1.1
-    prettier: ^2.1.2
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -2447,7 +2446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.2, prettier@npm:^2.2.0, prettier@npm:^2.5.1":
+"prettier@npm:^2.2.0, prettier@npm:^2.5.1":
   version: 2.5.1
   resolution: "prettier@npm:2.5.1"
   bin:
