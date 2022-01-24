@@ -190,4 +190,4 @@ End to end frameworks are a bit tricker as there aren't a lot that make debuggin
 
 ## Putting it Together
 
-At this point we're ready to start writing our first application with TypeScript. We will be heavily using the samples found at the root of claszroom to structure our projects.
+At this point we're ready to start writing our first application with TypeScript. We will be heavily using the samples found at the root of classroom to structure our projects.

@@ -550,9 +550,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/claszroom@workspace:.":
+"@zthun/classroom@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@zthun/claszroom@workspace:."
+  resolution: "@zthun/classroom@workspace:."
   dependencies:
     "@zthun/lint-janitor": ^11.1.0
     "@zthun/lint-janitor-config": ^11.1.1

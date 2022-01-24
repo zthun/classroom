@@ -30,7 +30,7 @@ The response to the question of why given by HHS is a fantastic answer. It gives
 
 ## Putting It Together
 
-Throughout all courses in Claszroom, you will see patterns, designs, and techniques that have not only been innovated over decades, but are often considered industry best practices. You may also see and read things that seem off base and are not standard. This is on purpose. Claszroom is an ever evolving document that will change with the times based on research, considerations, and personal experience.
+Throughout all courses in Classroom, you will see patterns, designs, and techniques that have not only been innovated over decades, but are often considered industry best practices. You may also see and read things that seem off base and are not standard. This is on purpose. Classroom is an ever evolving document that will change with the times based on research, considerations, and personal experience.
 
 > Many times you will see designs, you will also see an accompanying blockquote. The blockquote describes the reason why we are doing what we are doing. All answers to these questions will always attempt to be a non fear based, good answer. Whether or not you accept the answer or its reasoning, you will have to decide that for yourself. Feel free to discuss the issue under the Issues tab in Github.
 
@@ -38,7 +38,7 @@ With this in mind, not every line, statement, pattern, or design may come with a
 
 In the reverse sense, it is also possible you are being asked why on your position. If you are unsure, don't use fear or laziness as an answer. A perfectly acceptable answer is "I don't know." I don't know gets others to think and discuss. I don't know is what raises curiosity. If you are going down a path and you find out you are just going through the motions, ask yourself why you are doing what you're doing and be ok with an answer of "I don't know." This will get you to think about the real answer and may prompt you to slow down, and research the potential results of your work.
 
-## So Why Claszroom
+## So Why Classroom
 
 Today's college and education system is broken. The average cost of tuition in the US is [an outrageous $26000 per academic year as of 2021](https://educationdata.org/average-cost-of-college). The total amount of student debt [is over 1.7 trillion dollars](https://studentloanhero.com/student-loan-debt-statistics/). Is this what it's come to? A lifetime of slavery to debt collectors for an education.
 
@@ -46,7 +46,7 @@ We're watching a train wreck in extreme slow motion. Why go to college? I'll bet
 
 Coding bootcamps have become a thing for many people who are trying to break into the software industry. I've worked with several people who have gone through these short, one to three month, bootcamps and often, they come out of the gate without a knowledge of how to write a for loop or use the debugger. Yet, for the short three months, they can cost an [enormous $13000](https://www.coursereport.com/blog/coding-bootcamp-cost-comparison-full-stack-immersives#:~:text=While%20the%20average%20full%2Dtime,deferred%20tuition%20or%20offer%20ISAs). Yet, even if you decide to go through this route, you are expected to be fully invested in the self learning route as well. If we are paraphrasing, you pay $13000 to someone else to teach yourself how to code. This sounds like a nonsense scam to me.
 
-I believe education is the foundation of a strong, powerful society. I want to pay taxes for education so little Timmy across the street, whom I've never met, can get an education in public school. Why? Because I don't want the whole of society to be filled with uninformed, uneducated people. Claszroom is an attempt to take on this system and bring as much information together to educate those who want an education but can't afford it. All courses are written in markdown and stored on Github under the courses folder.
+I believe education is the foundation of a strong, powerful society. I want to pay taxes for education so little Timmy across the street, whom I've never met, can get an education in public school. Why? Because I don't want the whole of society to be filled with uninformed, uneducated people. Classroom is an attempt to take on this system and bring as much information together to educate those who want an education but can't afford it. All courses are written in markdown and stored on Github under the courses folder.
 
 > Markdown is a text based format. This format makes it easy to read and easy to update. It allows us to easily compare what has been added, what has been deprecated, and what has been updated. If we stored the courses as PDF or Word formats, we wouldn't be able to easily diff the changes without proprietary software. Basically, Markdown, while a bit primitive, makes this available to everyone. Also, by storing all of the courses on GitHub, we have a community that can proof read and make changes to the content. The other reason is so that people can access the courses as long as they have access to the internet. If you are homeless with no money at all, you can still educate yourself by accessing a public library with internet access.
 

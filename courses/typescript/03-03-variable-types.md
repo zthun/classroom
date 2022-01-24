@@ -48,7 +48,7 @@ You might think to yourself how these types of variables seem useless and unhelp
 
 ```ts
 // Sample A
-const title = 'Zthunworks Claszroom';
+const title = 'Zthunworks Classroom';
 console.log(title);
 ```
 
@@ -56,7 +56,7 @@ Event though the TypeScript type is omitted there, if you were to write this out
 
 ```ts
 // Sample A Expanded
-const title: 'Zthunworks Claszroom' = 'Zthunworks Claszroom';
+const title: 'Zthunworks Classroom' = 'Zthunworks Classroom';
 console.log(title);
 ```
 
