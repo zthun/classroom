@@ -1,0 +1,33 @@
+{
+  "name": "@zthun/classroom-web",
+  "version": "1.0.0",
+  "description": "Zthunworks University (Not a real college).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/classroom",
+    "directory": "packages/classroom-web"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "vite"
+  },
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "devDependencies": {
+    "@zthun/cirque": "^5.0.1",
+    "@zthun/cirque-du-react": "^5.0.3",
+    "@zthun/fashion-boutique": "^2.4.2",
+    "@zthun/fashion-tailor": "^2.4.2",
+    "@zthun/fashion-theme": "^2.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "vitest": "^1.0.4"
+  }
+}
