@@ -12,6 +12,7 @@
     "strictNullChecks": true,
     "strictBindCallApply": true,
     "skipLibCheck": true,
+    "sourceMap": true,
     "jsx": "react",
     "target": "ESNext",
     "module": "ESNext"
