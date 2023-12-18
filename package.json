@@ -15,9 +15,9 @@
     "make": "yarn clean && yarn lint"
   },
   "devDependencies": {
-    "@zthun/lint-janitor": "^11.1.0",
-    "@zthun/lint-janitor-config": "^11.1.1",
-    "rimraf": "^3.0.2"
+    "@zthun/lint-janitor": "^15.1.2",
+    "@zthun/lint-janitor-config": "^15.1.2",
+    "rimraf": "^5.0.5"
   },
   "packageManager": "yarn@4.0.2"
 }
