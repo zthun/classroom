@@ -11,7 +11,7 @@ import { ZSchoolPage } from '../school/school-page';
  *        The jsx to render the fashion web application.
  */
 export function ZClassroomApp() {
-  const avatar = <ZImageSource src='/images/svg/classroom.svg' height={ZSizeFixed.Medium} />;
+  const avatar = <ZImageSource src='svg/classroom.svg' height={ZSizeFixed.Medium} />;
   const theme = useMemo(() => createDarkTheme(), []);
   const prefix = (
     <div className='ZFashionApp-description'>
