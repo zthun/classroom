@@ -10,14 +10,19 @@
     "url": "https://github.com/zthun/classroom"
   },
   "scripts": {
-    "clean": "rimraf dist reports \"*.tgz\" \"*.log\"",
+    "clean": "rimraf --glob dist reports \"*.tgz\" \"*.log\"",
     "lint": "lint-janitor",
     "make": "yarn clean && yarn lint"
   },
   "devDependencies": {
     "@zthun/lint-janitor": "^15.1.2",
     "@zthun/lint-janitor-config": "^15.1.2",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.6.4",
+    "vite-plugin-externalize-deps": "^0.8.0",
+    "vite-tsconfig-paths": "^4.2.2"
   },
   "packageManager": "yarn@4.0.2"
 }
