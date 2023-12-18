@@ -2224,7 +2224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsdom-global@npm:^3":
+"@types/jsdom-global@npm:^3.0.7":
   version: 3.0.7
   resolution: "@types/jsdom-global@npm:3.0.7"
   dependencies:
@@ -2704,7 +2704,7 @@ __metadata:
   resolution: "@zthun/classroom@workspace:."
   dependencies:
     "@types/jsdom": "npm:^21.1.6"
-    "@types/jsdom-global": "npm:^3"
+    "@types/jsdom-global": "npm:^3.0.7"
     "@types/node": "npm:^20.10.5"
     "@types/react": "npm:^18.2.45"
     "@types/react-dom": "npm:^18.2.18"
