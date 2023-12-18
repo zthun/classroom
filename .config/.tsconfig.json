@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "target": "ESNext",
+    "module": "ESNext"
+  }
+}
