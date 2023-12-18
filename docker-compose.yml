@@ -1,0 +1,19 @@
+services:
+  # Load Balancer (Entry Point)
+  classroom.local.zthunworks.com:
+    image: zthun/helpful-proxy
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./.config:/.config
+    depends_on:
+      - classroom-services-web
+
+  # Node Ports
+  classroom-services-web:
+    image: node:lts
+    volumes:
+      - .:/usr/dev
+    working_dir: /usr/dev
+    command: npm --workspace @zthun/classroom-web run start
