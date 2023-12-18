@@ -8,8 +8,8 @@ services:
     volumes:
       - ./.config:/.config
     depends_on:
+      - classroom-services-api
       - classroom-services-web
-
   # Node Ports
   classroom-services-web:
     image: node:lts
@@ -17,3 +17,9 @@ services:
       - .:/usr/dev
     working_dir: /usr/dev
     command: npm --workspace @zthun/classroom-web run start
+  classroom-services-api:
+    image: node:lts
+    volumes:
+      - .:/usr/dev
+    working_dir: /usr/dev
+    command: npm --workspace @zthun/classroom-api run debug
