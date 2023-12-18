@@ -1,6 +1,10 @@
-# Yarn
-.yarn/cache
-.yarn/*.gz
+# Outputs
+coverage
+reports
+stats
+*.lerna_backup
+*.tgz
+.rpt2_cache
 
 # Logs
 logs
@@ -107,8 +111,15 @@ dist
 # TernJS port file
 .tern-port
 
-# OS files
+# OS Turds
 .DS_Store
+
+# Yarn
+.yarn/cache
+.yarn/*.gz
+
+# Local Only
+.secrets
 
 # C-Sharp files
 .vs
