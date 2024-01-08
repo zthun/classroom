@@ -22,6 +22,7 @@
   "devDependencies": {
     "@zthun/cirque": "^5.0.1",
     "@zthun/cirque-du-react": "^5.0.3",
+    "@zthun/classroom-school": "^1.0.0",
     "@zthun/fashion-boutique": "^2.6.0",
     "@zthun/fashion-tailor": "^2.4.2",
     "@zthun/fashion-theme": "^2.4.2",

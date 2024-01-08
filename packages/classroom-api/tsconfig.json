@@ -3,7 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": false,
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@zthun/classroom-school": ["../classroom-school/src/index"]
+    }
   },
   "ts-node": {
     "esm": true,

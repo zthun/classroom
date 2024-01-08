@@ -26,6 +26,7 @@
     "@nestjs/platform-express": "^10.3.0",
     "@nestjs/swagger": "^7.1.17",
     "@nestjs/throttler": "^5.1.1",
+    "@zthun/classroom-school": "^1.0.0",
     "helmet": "^7.1.0",
     "lodash": "^4.17.21",
     "reflect-metadata": "^0.2.1",
