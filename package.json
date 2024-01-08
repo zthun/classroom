@@ -27,7 +27,7 @@
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "@vitest/coverage-istanbul": "^1.0.4",
+    "@vitest/coverage-istanbul": "^1.1.0",
     "@zthun/lint-janitor": "^15.1.2",
     "@zthun/lint-janitor-config": "^15.1.2",
     "husky": "^8.0.3",
@@ -42,7 +42,7 @@
     "vite-plugin-dts": "^3.6.4",
     "vite-plugin-externalize-deps": "^0.8.0",
     "vite-tsconfig-paths": "^4.2.2",
-    "vitest": "^1.0.4"
+    "vitest": "^1.1.0"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node@*"
