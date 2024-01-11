@@ -45,11 +45,6 @@ export class ZLessonBuilder {
     return this;
   }
 
-  public copy(other: IZLesson): this {
-    this._lesson = structuredClone(other);
-    return this;
-  }
-
   public build(): IZLesson {
     return structuredClone(this._lesson);
   }
