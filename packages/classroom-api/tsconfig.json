@@ -12,5 +12,5 @@
     "esm": true,
     "experimentalSpecifierResolution": "node"
   },
-  "include": ["src/**/*.ts", "src/app/school-module.mts"]
+  "include": ["src/**/*.ts", "src/**/*.mts"]
 }
