@@ -1,12 +1,13 @@
-import { Inject, NotFoundException } from '@nestjs/common';
+import { Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { IZCourse } from '@zthun/classroom-school';
 import { IZDatabaseDocument } from '@zthun/dalmart-db';
 import { ZDataRequestBuilder, ZFilterBinaryBuilder } from '@zthun/helpful-query';
 import { ZClassroomCollection, ZDatabaseToken } from '../database/database.mjs';
 import { IZResourceGetService } from '../resource/resource-service';
 
+@Injectable()
 export class ZCoursesGetService implements IZResourceGetService<IZCourse> {
-  public constructor(@Inject(ZDatabaseToken) private _dal: IZDatabaseDocument) {}
+  public constructor(@Inject(ZDatabaseToken) private readonly _dal: IZDatabaseDocument) {}
 
   public async get(identification: string): Promise<IZCourse> {
     const idFilter = new ZFilterBinaryBuilder().subject('_id').equal().value(identification).build();
