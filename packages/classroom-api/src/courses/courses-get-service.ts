@@ -16,7 +16,7 @@ export class ZCoursesGetService implements IZResourceGetService<IZCourse> {
     const [course] = await this._dal.read<IZCourse>(ZClassroomCollection.Courses, request);
 
     if (course == null) {
-      throw new NotFoundException(`Course, ${course}, was not found.`);
+      throw new NotFoundException(`Course, ${identification}, was not found.`);
     }
 
     return course;
