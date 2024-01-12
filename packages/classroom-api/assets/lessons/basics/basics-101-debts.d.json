@@ -1,0 +1,11 @@
+{
+  "_id": "basics-101-debts.d",
+  "name": "The DEBTS daemon",
+  "description": "Learn the 6 pillars of software development and how to integrate yourself into any system, regardless of the complexity",
+  "courseId": "basics",
+  "courseNumber": 101,
+  "video": {
+    "id": "2pZmKW9-I_k",
+    "type": "you-tube"
+  }
+}
