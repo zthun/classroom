@@ -1,12 +1,13 @@
 import { IZCourse } from '../course/course.mjs';
+import { IZVideo } from './video.mjs';
 
 export interface IZLesson {
   _id: string;
+  lessonNumber: number;
   name: string;
   courseId?: string;
   description?: string;
-  videoUrl?: string;
-  transcriptUrl?: string;
+  video?: IZVideo;
 }
 
 export class ZLessonBuilder {
@@ -15,18 +16,20 @@ export class ZLessonBuilder {
   public constructor() {
     this._lesson = {
       _id: '',
+      lessonNumber: 100,
       courseId: '',
       name: ''
     };
   }
 
-  public id(val: string): this {
+  public id(val: string, num: number): this {
     this._lesson._id = val;
+    this._lesson.lessonNumber = num;
     return this;
   }
 
-  public course(val: IZCourse | string): this {
-    this._lesson.courseId = typeof val === 'string' ? val : val._id;
+  public course(courseId: IZCourse | string): this {
+    this._lesson.courseId = typeof courseId === 'string' ? courseId : courseId._id;
     return this;
   }
 
@@ -35,13 +38,8 @@ export class ZLessonBuilder {
     return this;
   }
 
-  public video(val: string): this {
-    this._lesson.videoUrl = val;
-    return this;
-  }
-
-  public transcript(val: string): this {
-    this._lesson.transcriptUrl = val;
+  public video(val: IZVideo): this {
+    this._lesson.video = val;
     return this;
   }
 
