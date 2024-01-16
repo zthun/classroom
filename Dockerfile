@@ -1,4 +1,4 @@
-FROM node:lts as setup
+FROM node:lts-bullseye as setup
 WORKDIR /usr/dev
 COPY . .
 RUN yarn install
