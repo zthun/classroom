@@ -1,6 +1,11 @@
 {
   "_id": "basics-102-terminal",
+  "courseId": "basics",
+  "description": "Learn how to use a basic command line on Mac and Windows",
+  "lessonNumber": 102,
   "name": "Introduction to the Terminal (Command Line)",
-  "courseId": "basics-110",
-  "description": "Learn how to use a basic command line on Mac and Windows"
+  "video": {
+    "id": "2pZmKW9-I_k",
+    "type": "you-tube"
+  }
 }
