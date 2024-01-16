@@ -2439,12 +2439,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.3":
-  version: 20.11.3
-  resolution: "@types/node@npm:20.11.3"
+"@types/node@npm:^20.11.4":
+  version: 20.11.4
+  resolution: "@types/node@npm:20.11.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: dff64333435bbda87e200e24e2103f40692d0a01849db685ecb31db7c589f2556843a03dd351ddaee9981020263939c026557b36df49154efd910c610deefe78
+  checksum: 207e17fa3aa7047ba729e0faf0eae5ae547132fd189eb64feb4427bcaa58d4f00354409008df305f84da49007d850890df8826548d5989f1a914eb182f77346d
   languageName: node
   linkType: hard
 
@@ -2921,7 +2921,7 @@ __metadata:
     "@nestjs/throttler": "npm:^5.1.1"
     "@zthun/classroom-school": "npm:^1.0.0"
     "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/dalmart-fs": "npm:^1.3.0"
+    "@zthun/dalmart-fs": "npm:^1.4.0"
     "@zthun/dalmart-memory": "npm:^1.3.0"
     "@zthun/helpful-fn": "npm:^3.2.0"
     "@zthun/helpful-node": "npm:^3.2.0"
@@ -2975,7 +2975,7 @@ __metadata:
   dependencies:
     "@types/jsdom": "npm:^21.1.6"
     "@types/jsdom-global": "npm:^3.0.7"
-    "@types/node": "npm:^20.11.3"
+    "@types/node": "npm:^20.11.4"
     "@types/react": "npm:^18.2.48"
     "@types/react-dom": "npm:^18.2.18"
     "@types/supertest": "npm:^6.0.2"
@@ -3008,16 +3008,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/dalmart-fs@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@zthun/dalmart-fs@npm:1.3.0"
+"@zthun/dalmart-fs@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@zthun/dalmart-fs@npm:1.4.0"
   dependencies:
     "@zthun/dalmart-db": "npm:^1.3.0"
     "@zthun/helpful-fn": "npm:^3.0.0"
     "@zthun/helpful-query": "npm:^3.0.0"
     glob: "npm:^10.3.10"
     lodash-es: "npm:^4.17.21"
-  checksum: a77d82d2621d8545358689c5f556da8b3c668388164264cecf4b8bd0fe84b361154a7f19de1fb9aadd6a71425d28341ee338246279e739ce60cff3dfbc46adeb
+  checksum: de280202229a3f8da47c9634c07e85424af808717d7225a37398c518d54a3a64d81c7abfe9aa57ea3f38128d264b3c0c8e3430b83e74b552ebc1513621fe998f
   languageName: node
   linkType: hard
 
