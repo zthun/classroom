@@ -44,57 +44,9 @@ For newcomers, I recommend starting with monolithic applications for their simpl
 
 ## Test
 
-The T stands for testing, and how you will be assuring that what you produce is of high quality. You may be familiar with the quality triangle. Faster, cheaper, or better, pick two. If you choose quality, you will have to have more resources or develop it at a much slower pace than you would like. If you choose fast and cheap, then your quality will suffer. If you have gone the fast and cheap route, then this portion of DEBT will not apply to you, but do be aware that you may be sacrificing the quality to move at a very rapid, unreasonable pace. If, on the other hand, you decide that quality is very important to you, you are going to have to have some form of testing in order to verify that what you build meets those standards.
+## Share
 
-In order to do this, you must decide not only what to test, but how you are going to test?
-
-![Testing Pyramid](../../media/png/testing-pyramid-256x256.png)
-
-The above testing pyramid describes the general levels of testing that are often found in the industry. Everything inside the pyramid is a level of _testing automation_. What level you choose to test at is mostly going to be up to you and your organization. How deep you are going to go depends on your needs and the needs of the product you're building. At the least, you will want some form of manual testing.
-
-### Unit Testing
-
-This form of testing is not only for quality, but is mostly for developers. At this level, individual units of behavior are tested throughout the code, and there is no outside requirements or resources needed. It is mostly used for refactoring, team coordination, debug access, and code cleanup. It is a form of a quality gate, but it should not be your only form as this level of testing is primarily targeted at developers to keep their code fresh, clean, and maintainable.
-
-> Sometimes you'll see management dictating that this must be done and that you will also be mandated to provide the code coverage to how much you've tested. While this is annoying, and it displays a lack of understanding of what this is truly for, you don't have to balk at it or fight it very much. Once you mature as a developer, you'll find that you actually want to write unit tests regardless of being asked for it or not. It simply becomes a part of the task you are working on and, if you plan on becoming a rock star developer, will be something you provide out of box without even having to be asked.
-
-The following are some unit testing frameworks that you can use for different languages.
-
-| Language   | Frameworks                                                                                                                                                  |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| C#         | [NUnit](https://nunit.org/), [XUnit](https://xunit.net/)                                                                                                    |
-| Java       | [Junit](https://junit.org/)                                                                                                                                 |
-| TypeScript | [Karma](https://karma-runner.github.io/latest/index.html) + [Jasmine](https://jasmine.github.io/)/[Mocha](https://mochajs.org/), [Jest](https://jestjs.io/) |
-
-### Integration Testing
-
-Integration testing is similar process to unit testing, and the task is generally shared between both developers and dedicated QA. Sometimes it moves more in one direction than the other. This form of testing actual is similar to unit testing, but it uses real outside resources such as databases and file systems rather than mocking out those layers.
-
-> If you're a developer, you will want to work closely with QA engineers on this level of testing to make sure that you can run these tests yourself. This way, you will have a deeper understanding of the big picture of what is being developed and how it all integrates. By having a big picture mentality, you will more than likely be more engaged in what is being written.
-
-When choosing to write integration tests, you will normally just use the same framework that you use for writing unit tests as this form of testing is performed in the same manner.
-
-### E2E Testing
-
-E2E testing stands for _end to end_ testing and it is the level below a human opening your application and "clicking all the things." You can think of this layer as a developer who is creating a robot that mimics a QA person. They are actually opening your application, clicking buttons, providing input, and checking the output in an automated fashion. It's a full test that represents how an actual end user is going to be using your product. This is often owned by dedicated QA automation engineers.
-
-> The main reason to invest in this is cost. Generally, it is much cheaper to invest in writing end to end testing and paying a larger cost up front to have the ability to do a full application test by clicking a button and getting back a report of what is working and what is broken. These are generally very valuable in freeing up time from manual testing which can be lengthy and very expensive.
-
-The following are some e2e testing frameworks for various application types. Note that e2e testing is not often dictated by the language, but instead by the type of product being developed.
-
-| Framework                                                                                                       | Used For |
-| --------------------------------------------------------------------------------------------------------------- | -------- |
-| [Selenium](https://www.selenium.dev/)                                                                           | Web Apps |
-| [Protractor](https://www.protractortest.org/#/)                                                                 | Web Apps |
-| [Coded UI](https://docs.microsoft.com/en-us/visualstudio/test/use-ui-automation-to-test-your-code?view=vs-2019) | Desktop  |
-
-### Manual Testing
-
-This is what the industry has done for many years before automation became a thing. This is one or more dedicated people sitting behind the desk using the software against many test cases that must pass before a release.
-
-Once you choose how deep you want to go down the pyramid, you will need to decide on the frameworks and tools to use when doing testing.
-
-### Debug
+## Debug
 
 It can be fairly easy to identify what tools are being used to build your software by doing a simple google search. You'll find a lot of references to each tool and how to use them on the command line. However, the more important piece here is how to _debug_ your application. It's inevitable. Your software and creation will most likely not be perfect and you will have to go back through and step through your implementation. It's amazing how many developers you will meet that will refuse to use any form of debugger or have no idea what a debugger is. By choosing to become an expert in the debugger of your chosen technology, you will be a step up at squashing bugs and fast response times. The following are common debuggers for different languages.
 
