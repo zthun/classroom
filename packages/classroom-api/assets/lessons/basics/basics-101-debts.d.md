@@ -10,7 +10,7 @@ With two decades of software development experience, I've observed a recurring p
 
 ## Deployment
 
-We always begin with the deployment pillar, a crucial phase that requires a foundational understanding even before embarking on your project—whether during a company interview or at the project's inception. Questions like "What product are you building?" and "How will it solve a problem?" should be addressed early on. Envision how your creation, whether a digital artifact or a physical product, will reach end users. Is it a website, a desktop application, a tangible item, or a mobile app distributed through an app store? Consider the user's journey, from installation to receiving updated revisions. This forms the vision of your project—imagine if you could instantly see the final result, what would it look like?
+We always begin with the **deployment pillar**, a crucial phase that requires a foundational understanding even before embarking on your project—whether during a company interview or at the project's inception. Questions like "What product are you building?" and "How will it solve a problem?" should be addressed early on. Envision how your creation, whether a digital artifact or a physical product, will reach end users. Is it a website, a desktop application, a tangible item, or a mobile app distributed through an app store? Consider the user's journey, from installation to receiving updated revisions. This forms the vision of your project—imagine if you could instantly see the final result, what would it look like?
 
 Arguably the most pivotal aspect, this falls under the umbrella of accessibility. Easy accessibility determines how much it enhances the lives of end users. If accessibility is minimized, making it harder for users to perform a task, your creation risks becoming a forgotten project. Even if you're developing something solely for personal use, maintaining clarity in your vision and goals is essential. Lack of clear goals increases the likelihood of abandoning the project before it sees the light of day.
 
@@ -22,7 +22,7 @@ A final consideration is not only to make your creation convenient for users but
 
 ## Environment
 
-The second pillar, environment, revolves around tooling—a critical component of your development journey. Consider the tools and external software necessary for your success. Will you opt for the Linux operating system and code in a basic text editor, or are you leaning towards Windows, developing a C# application using Visual Studio, NuGet, and Azure? Company standards may dictate these choices initially, but over time, you'll observe a trend where organizations grant developers the freedom to make their own selections. This phase is a gathering stage, marked by flexibility.
+The second **pillar, environment**, revolves around tooling—a critical component of your development journey. Consider the tools and external software necessary for your success. Will you opt for the Linux operating system and code in a basic text editor, or are you leaning towards Windows, developing a C# application using Visual Studio, NuGet, and Azure? Company standards may dictate these choices initially, but over time, you'll observe a trend where organizations grant developers the freedom to make their own selections. This phase is a gathering stage, marked by flexibility.
 
 As your software development career progresses, you'll inevitably develop preferences for specific tools. When it comes to tooling, consider your teammates and fellow engineers and the tools they use. You may find yourself utilizing one tool while your desk mate prefers another. However, keep in mind that the infrastructure supporting each tool may differ. While team unity in tool selection is valuable, prioritize what makes you most productive.
 
@@ -30,7 +30,7 @@ This is an ongoing process, not a one-time decision. Your toolkit can evolve ove
 
 ## Build
 
-The build pillar stands as the cornerstone where developers invest a significant portion of their time, shaping the very essence of software development—an art as much as it is a science. This pillar encompasses the language, system design, and architecture that define the system you are developing.
+The **build pillar** stands as the cornerstone where developers invest a significant portion of their time, shaping the very essence of software development—an art as much as it is a science. This pillar encompasses the language, system design, and architecture that define the system you are developing.
 
 Choosing, or choosing to learn, a development language marks the initial focal point of the build pillar, and its significance reverberates throughout your career path. The decision to delve into the intricacies of C, working in close proximity to hardware, or to embrace a scripting language like JavaScript or LUA for crafting web applications or World of Warcraft Addons, lays the foundation for your journey. Beyond personal preference, it's vital to align your choice with the language used in the system you're working on, assessing the requisite skills for effective engagement.
 
@@ -44,7 +44,7 @@ For newcomers, I recommend starting with monolithic applications for their simpl
 
 ## Test
 
-The testing pillar is not what one might traditionally envision. In modern development, quality is a collective responsibility; it extends beyond the confines of a QA department to include everyone involved. As developers, our commitment to quality goes beyond merely producing functional code; it entails ensuring that the code is maintainable and adaptable over time. When we discuss testing in a development context, we are not referring to manually executing an exhaustive list of test steps from a cumbersome encyclopedia. This outdated and labor-intensive process is a significant time sink. Instead, this pillar encourages you to contemplate how to automate your testing workflow, enabling confident modifications and refactoring as the codebase evolves. This is typically achieved through various testing styles, such as unit testing, integration testing, and end-to-end testing.
+The **test pillar** is not what one might traditionally envision. In modern development, quality is a collective responsibility; it extends beyond the confines of a QA department to include everyone involved. As developers, our commitment to quality goes beyond merely producing functional code; it entails ensuring that the code is maintainable and adaptable over time. When we discuss testing in a development context, we are not referring to manually executing an exhaustive list of test steps from a cumbersome encyclopedia. This outdated and labor-intensive process is a significant time sink. Instead, this pillar encourages you to contemplate how to automate your testing workflow, enabling confident modifications and refactoring as the codebase evolves. This is typically achieved through various testing styles, such as unit testing, integration testing, and end-to-end testing.
 
 In the past decade, there has been a notable shift towards a test-first structure, where test cases and test automation are crafted before any feature code is written. This approach is known as test-driven development or behavior-driven development, depending on its application, and has become a standard practice in most organizations. The guidelines for testing boundaries are well-documented in the modern [test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html).
 
@@ -53,6 +53,12 @@ When working with a system, keep in mind the testing frameworks you plan to use,
 While the realm of testing can be an extensive field of study with dedicated subsections in computer science, as a developer, it's essential to at least consider how and why you plan to test. Test automation is not merely a managerial mandate; it's a practice embraced by professional developers. It streamlines the development process, boosts team confidence, and enhances the overall quality of code. Mastering the art of automated testing for your written code results in higher quality outputs, facilitates easier refactoring, and aligns with good software design principles.
 
 ## Share
+
+In the **share pillar** of software development, the emphasis is on sharing code efficiently among developers. As you progress in your development journey, you'll inevitably create code that others may find valuable. The DRY principle, standing for "Don't Repeat Yourself," discourages the amateur practice of copying and pasting code. While this was common two decades ago, the advent of package management has transformed the landscape, forming the foundation of the share pillar. The question becomes, how can you share your code for other developers to easily consume?
+
+Navigating this challenge involves being aware of available technologies and establishing effective application boundaries for splitting code in a logical manner. Additionally, determining where the split code should be deployed is crucial. Much like compilers and testing frameworks, the choice of a code sharing repository depends on the programming language you are using. For example, Java relies on [Maven](https://central.sonatype.com/), C# utilizes [NuGet](https://www.nuget.org/), JavaScript and TypeScript leverage [NPM](https://www.npmjs.com/), and Python turns to [PIP](https://pypi.org/).
+
+Although the share pillar may seem small, once you understand the package management system relevant to your language, you gain the necessary tools to seamlessly share code across teams and applications. The primary challenge then shifts to determining "what" precisely needs to be shared.
 
 ## Debug
 
