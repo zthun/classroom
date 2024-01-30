@@ -44,6 +44,14 @@ For newcomers, I recommend starting with monolithic applications for their simpl
 
 ## Test
 
+The testing pillar is not what one might traditionally envision. In modern development, quality is a collective responsibility; it extends beyond the confines of a QA department to include everyone involved. As developers, our commitment to quality goes beyond merely producing functional code; it entails ensuring that the code is maintainable and adaptable over time. When we discuss testing in a development context, we are not referring to manually executing an exhaustive list of test steps from a cumbersome encyclopedia. This outdated and labor-intensive process is a significant time sink. Instead, this pillar encourages you to contemplate how to automate your testing workflow, enabling confident modifications and refactoring as the codebase evolves. This is typically achieved through various testing styles, such as unit testing, integration testing, and end-to-end testing.
+
+In the past decade, there has been a notable shift towards a test-first structure, where test cases and test automation are crafted before any feature code is written. This approach is known as test-driven development or behavior-driven development, depending on its application, and has become a standard practice in most organizations. The guidelines for testing boundaries are well-documented in the modern [test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html).
+
+When working with a system, keep in mind the testing frameworks you plan to use, as these vary across different languages. For instance, Java employs JUnit, JavaScript offers options like Jasmine, Jest, and Vitest, C# provides NUnit and XUnit, and Python relies on PyTest. Even terminal-based scripting languages like PowerShell in Windows have tools like Pester for testing scripts. Test frameworks are deeply integrated into modern development, and staying informed about them is crucial.
+
+While the realm of testing can be an extensive field of study with dedicated subsections in computer science, as a developer, it's essential to at least consider how and why you plan to test. Test automation is not merely a managerial mandate; it's a practice embraced by professional developers. It streamlines the development process, boosts team confidence, and enhances the overall quality of code. Mastering the art of automated testing for your written code results in higher quality outputs, facilitates easier refactoring, and aligns with good software design principles.
+
 ## Share
 
 ## Debug
@@ -62,8 +70,6 @@ Notice that the debugger tools often overlap with the environment tools. A good 
 
 > Another big reason to know you're debugger is that it also acts as a learning tool. If you are brand new to a piece of software, but doing step by step debugging, you can interactively see what is happening on each line of your code base. If you are unsure of where things are happening in an application, simply run the debugger and run though the steps to get to the point your at. Sometimes the bazooka approach is the fastest and most efficient way for knowing what is actually happening.
 
-## Recommendations
+## Conclusion
 
-At this point, you are ready to dive into the technology of your choice. Before you start, I would recommend you create an account at [Github](https://github.com). Just about all of the courses will be using [Git](https://git-scm.com/) as well for source control so it is recommended to install that as well.
-
-> Github is influential for experienced and new developers. It is one of the main source hubs on the internet for open source projects and is a fantastic place to engage the community and learn new things. If you aren't interested in starting your own projects, there are a lot of projects that you can dive deep into and contribute to.
+You made it! In this introduction module, you learned about the debts daemon.
