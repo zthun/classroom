@@ -2962,6 +2962,7 @@ __metadata:
     "@zthun/fashion-boutique": "npm:^2.6.0"
     "@zthun/fashion-tailor": "npm:^2.4.2"
     "@zthun/fashion-theme": "npm:^2.4.2"
+    history: "npm:^5.3.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-router-dom: "npm:^6.21.2"

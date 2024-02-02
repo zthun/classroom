@@ -26,6 +26,7 @@
     "@zthun/fashion-boutique": "^2.6.0",
     "@zthun/fashion-tailor": "^2.4.2",
     "@zthun/fashion-theme": "^2.4.2",
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",

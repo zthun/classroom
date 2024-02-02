@@ -6,5 +6,5 @@
       "@zthun/classroom-school": ["../classroom-school/src/index"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.mts"]
 }
