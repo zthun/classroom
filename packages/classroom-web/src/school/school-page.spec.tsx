@@ -6,7 +6,7 @@ import React from 'react';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { Routes } from '../routes.mjs';
 import { ZSchoolPage } from './school-page';
-import { ZSchoolPageComponentModel } from './school-page.cm';
+import { ZSchoolPageComponentModel } from './school-page.cm.mjs';
 
 describe('ZSchoolPage', () => {
   let history: MemoryHistory;
@@ -41,6 +41,6 @@ describe('ZSchoolPage', () => {
     await courses.click();
     const actual = history.location.pathname;
     // Assert.
-    expect(actual).toEqual(`/${Routes.lessons()}`);
+    expect(actual).toEqual(`${Routes.lessons()}`);
   });
 });
