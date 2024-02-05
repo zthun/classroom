@@ -13,6 +13,7 @@ import {
 import { ZSizeFixed } from '@zthun/fashion-tailor';
 import { createDarkTheme } from '@zthun/fashion-theme';
 import React, { useMemo } from 'react';
+import { ZLessonPage } from '../lessons/lesson-page';
 import { ZLessonsPage } from '../lessons/lessons-page';
 import { Routes } from '../routes.mjs';
 import { ZSchoolPage } from '../school/school-page';
@@ -40,6 +41,7 @@ export function ZClassroomApp() {
           <ZRouteMap>
             <ZRoute path={Routes.school()} element={<ZSchoolPage />} />
             <ZRoute path={Routes.lessons()} element={<ZLessonsPage />} />
+            <ZRoute path={Routes.lesson(':lessonIdentification')} element={<ZLessonPage />} />
             <ZRoute path='' element={<ZNavigate to='school' />} />
             <ZRoute path='*' element={<ZNotFound />} />
           </ZRouteMap>
