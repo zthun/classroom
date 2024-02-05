@@ -45,7 +45,8 @@ A solution file (.sln) is a collection of C# projects.
 <details>
   <summary>What is a C# project file?</summary>
 
-A project file (.csproj) is a collection of source code files, dependencies, and resources that output a single .exe or .dll file.
+A project file (.csproj) is a collection of source code files, dependencies, and resources that output a single .exe or
+.dll file.
 
 </details>
 
@@ -59,6 +60,7 @@ XUnit, NUnit, MSTest.
 <details>
   <summary>What is the difference between a test runner, a test framework, and a test library.</summary>
 
-A test runner is responsible for running the tests found in a test library. The test library implements a set number of tests using a test framework. The test framework provides the building blocks for writing tests.
+A test runner is responsible for running the tests found in a test library. The test library implements a set number of
+tests using a test framework. The test framework provides the building blocks for writing tests.
 
 </details>

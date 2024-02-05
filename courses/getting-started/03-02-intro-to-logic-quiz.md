@@ -12,7 +12,8 @@
 <details>
   <summary>What is the difference between truthy/falsy and true/false?</summary>
 
-Truthy and falsy are values where a conversion to a bool would result in true/false respectively. It differs depending on the language.
+Truthy and falsy are values where a conversion to a bool would result in true/false respectively. It differs depending
+on the language.
 
 </details>
 
@@ -43,6 +44,7 @@ Truthy and falsy are values where a conversion to a bool would result in true/fa
 <details>
   <summary>Why is it the best idea to be explicit about the order of operations in logic?</summary>
 
-Because not all languages are created equal. Some languages will evaluate expressions left to right while others will evaluate based on an operator priority system.
+Because not all languages are created equal. Some languages will evaluate expressions left to right while others will
+evaluate based on an operator priority system.
 
 </details>

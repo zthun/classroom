@@ -2,7 +2,9 @@
 
 Take this section as an appendix for generic and commonly used software terms, definitions, acronyms, and ideas.
 
-Over the course of everything we will be covering, you may encounter terms that you are not familiar with or have forgotten. A general handful of terms will be found here that you can reference whenever you get lost and may general programming practices, acronyms, theories, and ideas will be documented here for you as a quick cheat sheet.
+Over the course of everything we will be covering, you may encounter terms that you are not familiar with or have
+forgotten. A general handful of terms will be found here that you can reference whenever you get lost and may general
+programming practices, acronyms, theories, and ideas will be documented here for you as a quick cheat sheet.
 
 ## General Definitions
 

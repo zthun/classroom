@@ -53,7 +53,8 @@ It creates an organization structure for our classes and objects. It's like a di
 <details>
   <summary>What is special about that Main method?  Why should there only be one of these in an executable application?</summary>
 
-It is the entry point of a .Net application. You can only have one Main method upon compilation time and any others would just be noise and dead code.
+It is the entry point of a .Net application. You can only have one Main method upon compilation time and any others
+would just be noise and dead code.
 
 </details>
 
@@ -67,6 +68,7 @@ A breakpoint.
 <details>
   <summary>When debugging, what is the difference between Step Over and Continue?</summary>
 
-Step over continues the execution of the program until the next line. Continue continues the execution of the program until the next breakpoint.
+Step over continues the execution of the program until the next line. Continue continues the execution of the program
+until the next breakpoint.
 
 </details>
