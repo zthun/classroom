@@ -47,10 +47,18 @@ describe('LessonsApi', () => {
 
   beforeEach(async () => {
     $basics = new ZCourseBuilder().id('basics').name('Basics').build();
-    $basics101 = new ZLessonBuilder().id('basics-101', 101).name('Basics 101 - The DEBTS Daemon').course($basics).build();
+    $basics101 = new ZLessonBuilder()
+      .id('basics-101', 101)
+      .name('Basics 101 - The DEBTS Daemon')
+      .course($basics)
+      .build();
     $basics102 = new ZLessonBuilder().id('basics-102', 102).name('Basics 102 - Command Line').course($basics).build();
     $typescript = new ZCourseBuilder().id('typescript').name('TypeScript').build();
-    $typescript101 = new ZLessonBuilder().id('typescript-101', 101).name('TypeScript 101 - Introduction').course($typescript._id).build();
+    $typescript101 = new ZLessonBuilder()
+      .id('typescript-101', 101)
+      .name('TypeScript 101 - Introduction')
+      .course($typescript._id)
+      .build();
 
     lessons = [$basics101, $basics102, $typescript101];
 
@@ -78,7 +86,9 @@ describe('LessonsApi', () => {
       // Arrange.
       const target = await createTestTarget();
       // Act.
-      const actual = await request(target.getHttpServer()).get(`/${endpoint}?filter=eq(courseId, ${$basics._id})&sort=asc(lessonNumber)`);
+      const actual = await request(target.getHttpServer()).get(
+        `/${endpoint}?filter=eq(courseId, ${$basics._id})&sort=asc(lessonNumber)`
+      );
       // Assert.
       expect(actual.status).toEqual(ZHttpCodeSuccess.OK);
       expect(actual.body.count).toEqual(2);
