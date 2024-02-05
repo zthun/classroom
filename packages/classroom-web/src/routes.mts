@@ -1,10 +1,10 @@
 export abstract class Routes {
   public static school() {
-    return 'school';
+    return '/school';
   }
 
   public static lessons() {
-    return 'lessons';
+    return '/lessons';
   }
 
   public static lesson(identification: string) {

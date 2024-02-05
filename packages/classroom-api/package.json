@@ -32,7 +32,7 @@
     "@zthun/helpful-fn": "^3.2.0",
     "@zthun/helpful-node": "^3.2.0",
     "@zthun/helpful-query": "^3.2.0",
-    "@zthun/webigail-http": "^2.0.1",
+    "@zthun/webigail-http": "^2.1.1",
     "helmet": "^7.1.0",
     "lodash": "^4.17.21",
     "reflect-metadata": "^0.2.1",

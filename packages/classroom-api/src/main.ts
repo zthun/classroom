@@ -7,7 +7,11 @@ import { ZSchoolModule } from './app/school-module.mjs';
   const app = await NestFactory.create(ZSchoolModule);
   app.setGlobalPrefix('api');
 
-  const config = new DocumentBuilder().setTitle('Classroom API').setDescription('The API for Zthunworks University').setVersion('1.0').build();
+  const config = new DocumentBuilder()
+    .setTitle('Classroom API')
+    .setDescription('The API for Zthunworks University')
+    .setVersion('1.0')
+    .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api/docs', app, document);
 
