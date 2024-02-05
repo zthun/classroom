@@ -21,5 +21,7 @@ services:
     image: node:lts
     volumes:
       - .:/usr/dev
+    ports:
+      - 9229:9229
     working_dir: /usr/dev
     command: npm --workspace @zthun/classroom-api run debug
