@@ -198,7 +198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.14.7, @babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.3, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.23.6":
+"@babel/parser@npm:^7.14.7, @babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.23.6":
   version: 7.23.6
   resolution: "@babel/parser@npm:7.23.6"
   bin:
@@ -245,7 +245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.3, @babel/types@npm:^7.23.6, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.6, @babel/types@npm:^7.8.3":
   version: 7.23.6
   resolution: "@babel/types@npm:7.23.6"
   dependencies:
@@ -811,14 +811,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.11.1":
-  version: 11.11.1
-  resolution: "@emotion/react@npm:11.11.1"
+"@emotion/react@npm:^11.11.3":
+  version: 11.11.3
+  resolution: "@emotion/react@npm:11.11.3"
   dependencies:
     "@babel/runtime": "npm:^7.18.3"
     "@emotion/babel-plugin": "npm:^11.11.0"
     "@emotion/cache": "npm:^11.11.0"
-    "@emotion/serialize": "npm:^1.1.2"
+    "@emotion/serialize": "npm:^1.1.3"
     "@emotion/use-insertion-effect-with-fallbacks": "npm:^1.0.1"
     "@emotion/utils": "npm:^1.2.1"
     "@emotion/weak-memoize": "npm:^0.3.1"
@@ -828,7 +828,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: dfc140718d0a8051a74e51c379226d9de6b19f6a5dd595fb282ef72f4413695a2d012ba919f1e9eeff761c6659e6f7398da8e0e36eb7997a4fdf54cef88644ae
+  checksum: f7b98557b7d5236296dda48c2fc8a6cde4af7399758496e9f710f85a80c7d66fee1830966caabd7b237601bfdaca4e1add8c681d1ae4cc3d497fe88958d541c4
   languageName: node
   linkType: hard
 
@@ -842,6 +842,19 @@ __metadata:
     "@emotion/utils": "npm:^1.2.1"
     csstype: "npm:^3.0.2"
   checksum: 71ed270ee4e9678d6d1c541cb111f8247aef862a28729e511f7036f22b12822e976b5843f5829a1c2a7b959a9728dcac831f39de3084664725eba1345a03b4a0
+  languageName: node
+  linkType: hard
+
+"@emotion/serialize@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@emotion/serialize@npm:1.1.3"
+  dependencies:
+    "@emotion/hash": "npm:^0.9.1"
+    "@emotion/memoize": "npm:^0.8.1"
+    "@emotion/unitless": "npm:^0.8.1"
+    "@emotion/utils": "npm:^1.2.1"
+    csstype: "npm:^3.0.2"
+  checksum: 48d88923663273ae70359bc1a1f30454136716cbe0ddd9664be08e257ce56acedab911f125b627627358e37c9f450bbac3ea09b534ef42f9f67325d47b1e2a7b
   languageName: node
   linkType: hard
 
@@ -2083,13 +2096,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.14.0":
-  version: 1.14.0
-  resolution: "@remix-run/router@npm:1.14.0"
-  checksum: cc46150f087695ba9da9aa905bcbe1d53d7e3ae4de37645c206b4bcb57a4605ebf3bdc87b9eff299562e7d68ddf80d412ac64cc60ecd2116d4aeb39cf8a0e358
-  languageName: node
-  linkType: hard
-
 "@remix-run/router@npm:1.15.0":
   version: 1.15.0
   resolution: "@remix-run/router@npm:1.15.0"
@@ -2712,9 +2718,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-istanbul@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@vitest/coverage-istanbul@npm:1.2.0"
+"@vitest/coverage-istanbul@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@vitest/coverage-istanbul@npm:1.2.2"
   dependencies:
     debug: "npm:^4.3.4"
     istanbul-lib-coverage: "npm:^3.2.2"
@@ -2722,12 +2728,12 @@ __metadata:
     istanbul-lib-report: "npm:^3.0.1"
     istanbul-lib-source-maps: "npm:^4.0.1"
     istanbul-reports: "npm:^3.1.6"
-    magicast: "npm:^0.3.2"
+    magicast: "npm:^0.3.3"
     picocolors: "npm:^1.0.0"
     test-exclude: "npm:^6.0.0"
   peerDependencies:
     vitest: ^1.0.0
-  checksum: 74323280117fa5df281e0211203268df28f0ef34c09a1e268c7c7c43b31497570dd93b3be4fd4a0cad3825991d4cf02aa08abcd40cf6419a99a3764da74992b7
+  checksum: 284537e5d6d2e83ab92caedee35c0c7e093ffcdbdf830fd956aa278149e3e0b9526cb58f864810753f47e24a19ebf386c3fc97ca8594808a36e3ae63734dd628
   languageName: node
   linkType: hard
 
@@ -2966,9 +2972,9 @@ __metadata:
     "@zthun/cirque": "npm:^5.0.1"
     "@zthun/cirque-du-react": "npm:^5.0.3"
     "@zthun/classroom-school": "npm:^1.0.0"
-    "@zthun/fashion-boutique": "npm:^2.6.0"
-    "@zthun/fashion-tailor": "npm:^2.4.2"
-    "@zthun/fashion-theme": "npm:^2.4.2"
+    "@zthun/fashion-boutique": "npm:^2.7.0"
+    "@zthun/fashion-tailor": "npm:^2.7.0"
+    "@zthun/fashion-theme": "npm:^2.7.0"
     "@zthun/helpful-fn": "npm:^3.2.0"
     "@zthun/helpful-query": "npm:^3.2.0"
     "@zthun/webigail-http": "npm:^2.1.1"
@@ -2994,7 +3000,7 @@ __metadata:
     "@types/react": "npm:^18.2.55"
     "@types/react-dom": "npm:^18.2.18"
     "@types/supertest": "npm:^6.0.2"
-    "@vitest/coverage-istanbul": "npm:^1.2.0"
+    "@vitest/coverage-istanbul": "npm:^1.2.2"
     "@zthun/lint-janitor": "npm:^15.1.2"
     "@zthun/lint-janitor-config": "npm:^15.1.2"
     husky: "npm:^9.0.10"
@@ -3098,50 +3104,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/fashion-boutique@npm:^2.6.0":
-  version: 2.6.0
-  resolution: "@zthun/fashion-boutique@npm:2.6.0"
+"@zthun/fashion-boutique@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@zthun/fashion-boutique@npm:2.7.0"
   dependencies:
-    "@emotion/react": "npm:^11.11.1"
+    "@emotion/react": "npm:^11.11.3"
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.15.0"
     "@mui/system": "npm:^5.15.0"
     "@zthun/cirque": "npm:^5.0.1"
-    "@zthun/fashion-tailor": "npm:^2.4.2"
-    "@zthun/fashion-theme": "npm:^2.4.2"
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    "@zthun/helpful-query": "npm:^3.0.0"
-    "@zthun/helpful-react": "npm:^3.0.0"
-    "@zthun/webigail-http": "npm:^2.0.1"
-    "@zthun/webigail-url": "npm:^2.0.2"
+    "@zthun/fashion-tailor": "npm:^2.7.0"
+    "@zthun/fashion-theme": "npm:^2.7.0"
+    "@zthun/helpful-fn": "npm:^3.2.0"
+    "@zthun/helpful-query": "npm:^3.2.0"
+    "@zthun/helpful-react": "npm:^3.2.1"
+    "@zthun/webigail-http": "npm:^2.1.1"
+    "@zthun/webigail-url": "npm:^2.1.1"
     csstype: "npm:^3.1.3"
     history: "npm:^5.3.0"
     lodash-es: "npm:^4.17.21"
-    react-router-dom: "npm:^6.21.0"
-    tss-react: "npm:^4.9.3"
+    react-router-dom: "npm:^6.22.0"
+    tss-react: "npm:^4.9.4"
   peerDependencies:
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: 7e8d2359b823cd767c3eb0c87c8a812292241001455a8ed4881f93d7919193ba4e96a335e3f3de698cab00cb5b7929ed71d45fa9600059a21799d7e651e90e7e
+  checksum: 99fa0209c264728815b3ef59b5b15e283b808897c0e94dc21d31caab441e4416fd7b4fd0adea9609965fc822c4d3329cec5e7eed2e47fee277097731dafe32ea
   languageName: node
   linkType: hard
 
-"@zthun/fashion-tailor@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "@zthun/fashion-tailor@npm:2.4.2"
+"@zthun/fashion-tailor@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@zthun/fashion-tailor@npm:2.7.0"
   dependencies:
     lodash-es: "npm:^4.17.21"
-  checksum: 4f2cc754a5c6695b3819e3715737a585833f1c3398d31440155fd32ea0a615b452b9b0a195ea914c76f67be476a2dc5d8ae8252ffdb19b30a77dbb3ff6ab135b
+  checksum: 953f64f6a4ca008de00cae50382364c9a98cf122271bbff01f3ca53171c3d6e6f1966169baf53cf8076bbd311391c710e5d9437010f231f88ac1be1122ab69ac
   languageName: node
   linkType: hard
 
-"@zthun/fashion-theme@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "@zthun/fashion-theme@npm:2.4.2"
+"@zthun/fashion-theme@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@zthun/fashion-theme@npm:2.7.0"
   dependencies:
     csstype: "npm:^3.1.3"
     lodash-es: "npm:^4.17.21"
-  checksum: 63913822826168bfd76a7c246f48de6b72846dcd89410a8e21d959a67481f5004079e8e9771a51e20bb2453f771f041ad8c8cc5425cd40c9cedffdafab839c7c
+  checksum: bf7da199a802e6cac2f3f101349b6f7224a1d95f54d81320d1ec7c5b2594b0af9a5f507ff56e99052cb1c60356c6e6f662e6668f6701a929130bdc09ffb729f4
   languageName: node
   linkType: hard
 
@@ -3192,13 +3198,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/helpful-react@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@zthun/helpful-react@npm:3.0.0"
+"@zthun/helpful-react@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@zthun/helpful-react@npm:3.2.1"
   dependencies:
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    "@zthun/helpful-query": "npm:^3.0.0"
-    lodash: "npm:^4.17.21"
+    "@zthun/helpful-fn": "npm:^3.2.0"
+    "@zthun/helpful-query": "npm:^3.2.0"
+    lodash-es: "npm:^4.17.21"
     rxjs: "npm:^7.8.1"
   peerDependencies:
     react: ^18.1.0
@@ -3207,7 +3213,7 @@ __metadata:
   peerDependenciesMeta:
     rxjs:
       optional: true
-  checksum: 802b66d81b405e6e3cb1c57bb95899f1bed4d2688885efd24a622ff6685fb2ffabfb0b4e1aba92a53ed854fe1273bb0bb0485c4d5de0acabce85d2e1c4ad9991
+  checksum: 9df942fb53278daa7cff2569d52af7f51f2e24d0c622f13aace6692017a36732f0b308d3009ee1707e0810f6ce37bf3cd499113e78fab47de06316a85884d2e0
   languageName: node
   linkType: hard
 
@@ -3319,15 +3325,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/webigail-http@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@zthun/webigail-http@npm:2.0.1"
-  dependencies:
-    axios: "npm:^1.6.2"
-  checksum: 091d3176172f1bf09ffcb891164381f146275ee8abe96ed980ce2b37b535ea51246f41bee3baf9a2be2bd55913b6d43ba8401046aee75c41f00fe2faa16d7732
-  languageName: node
-  linkType: hard
-
 "@zthun/webigail-http@npm:^2.1.1":
   version: 2.1.1
   resolution: "@zthun/webigail-http@npm:2.1.1"
@@ -3346,16 +3343,6 @@ __metadata:
     "@zthun/webigail-http": "npm:^2.1.1"
     "@zthun/webigail-url": "npm:^2.1.1"
   checksum: 77a159d0191fdfa23fe0635e3a1e10fd36bca4b63a2ff940b11bbbc93725de69361baf8be48b46b44ebd7db2315eea864cc1ef688cbe769045dba7bdb1d521de
-  languageName: node
-  linkType: hard
-
-"@zthun/webigail-url@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@zthun/webigail-url@npm:2.0.2"
-  dependencies:
-    lodash-es: "npm:^4.17.21"
-    url-parse: "npm:^1.5.10"
-  checksum: b69d7fa2461ccfbffc63303a42bead446c10724f43e9981362f26f74e515d8bf0d0f68687046354a846eaf1b319834c580ad2b2793cb87d78179a615932a3a8e
   languageName: node
   linkType: hard
 
@@ -3845,17 +3832,6 @@ __metadata:
     form-data: "npm:^4.0.0"
     proxy-from-env: "npm:^1.1.0"
   checksum: a1932b089ece759cd261f175d9ebf4d41c8994cf0c0767cda86055c7a19bcfdade8ae3464bf4cec4c8b142f4a657dc664fb77a41855e8376cf38b86d7a86518f
-  languageName: node
-  linkType: hard
-
-"axios@npm:^1.6.2":
-  version: 1.6.2
-  resolution: "axios@npm:1.6.2"
-  dependencies:
-    follow-redirects: "npm:^1.15.0"
-    form-data: "npm:^4.0.0"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 612bc93f8f738a518e7c5f9de9cc782bcd36aac6bae279160ef6a10260378e21c1786520eab3336898e3d66e0839ebdf739f327fb6d0431baa4d3235703a7652
   languageName: node
   linkType: hard
 
@@ -6241,16 +6217,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.15.0":
-  version: 1.15.3
-  resolution: "follow-redirects@npm:1.15.3"
-  peerDependenciesMeta:
-    debug:
-      optional: true
-  checksum: 60d98693f4976892f8c654b16ef6d1803887a951898857ab0cdc009570b1c06314ad499505b7a040ac5b98144939f8597766e5e6a6859c0945d157b473aa6f5f
-  languageName: node
-  linkType: hard
-
 "follow-redirects@npm:^1.15.3":
   version: 1.15.4
   resolution: "follow-redirects@npm:1.15.4"
@@ -8428,14 +8394,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magicast@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "magicast@npm:0.3.2"
+"magicast@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "magicast@npm:0.3.3"
   dependencies:
-    "@babel/parser": "npm:^7.23.3"
-    "@babel/types": "npm:^7.23.3"
+    "@babel/parser": "npm:^7.23.6"
+    "@babel/types": "npm:^7.23.6"
     source-map-js: "npm:^1.0.2"
-  checksum: 763444b18b32fb4b41e1ea92c8bae60f594000d338cbf2cfa1f4be1f11fb40212fc03068b7e4a918e177fc370eb153c95235992fbce8b80b658fd778f7b6aea7
+  checksum: 04af6f60d80a3a51344a864c6479af428e672c249b3f9211d78eee6ac8649257daad610ba4a68d4151e38d393b48b0f4a8f3db178422674fb5d418bc8c939055
   languageName: node
   linkType: hard
 
@@ -10533,19 +10499,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.21.0":
-  version: 6.21.0
-  resolution: "react-router-dom@npm:6.21.0"
-  dependencies:
-    "@remix-run/router": "npm:1.14.0"
-    react-router: "npm:6.21.0"
-  peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  checksum: 7448674817971c8138a96cef05331fb45cb6ef1f71450db9da87e3e0d0586bb55ba85fd3ca741ed7a22a40b6b6e544c11cff9e2fe3fa5957faf7b8ab74a0dcf3
-  languageName: node
-  linkType: hard
-
 "react-router-dom@npm:^6.22.0":
   version: 6.22.0
   resolution: "react-router-dom@npm:6.22.0"
@@ -10556,17 +10509,6 @@ __metadata:
     react: ">=16.8"
     react-dom: ">=16.8"
   checksum: 32ba0386d400354094116fa7dd98f1d23bc7cf683b0f4509694be5f730d4957fcb8cc73e35946576fc3f48b4d36743422f1b9bcdc37ad77f04bde0bde5d9102e
-  languageName: node
-  linkType: hard
-
-"react-router@npm:6.21.0":
-  version: 6.21.0
-  resolution: "react-router@npm:6.21.0"
-  dependencies:
-    "@remix-run/router": "npm:1.14.0"
-  peerDependencies:
-    react: ">=16.8"
-  checksum: 10c58589d804b823caf3fd46403662769375618ae39ebae99f8df167c43440bb8ebf853548ba2bf96f21027c72c234d4fc37042643c91c9920f1cdfda5e03fab
   languageName: node
   linkType: hard
 
@@ -12351,9 +12293,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tss-react@npm:^4.9.3":
-  version: 4.9.3
-  resolution: "tss-react@npm:4.9.3"
+"tss-react@npm:^4.9.4":
+  version: 4.9.4
+  resolution: "tss-react@npm:4.9.4"
   dependencies:
     "@emotion/cache": "npm:*"
     "@emotion/serialize": "npm:*"
@@ -12368,7 +12310,7 @@ __metadata:
       optional: true
     "@mui/material":
       optional: true
-  checksum: 17ddf5626a9f54c9e8fde23e98a8a52f4b0a8f39750826be162a4936fdc0e3c29323e72666f3974220a63e281484bc8271a022d66b0719c4fa69c707cd6beb52
+  checksum: c21fac3d9f6e11ca33472cd7e7d5f30aa591148f5c8dc895462d8e085acf59606748ae0b7ae955f40ae19de9cfa908f581faa2238012b0137151f2ce6acf1501
   languageName: node
   linkType: hard
 
