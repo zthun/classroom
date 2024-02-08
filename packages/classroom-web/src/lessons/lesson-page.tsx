@@ -18,5 +18,3 @@ export function ZLessonPage() {
     </ZWizard>
   );
 }
-
-export default ZLessonPage;

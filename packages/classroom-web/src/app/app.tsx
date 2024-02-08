@@ -31,9 +31,9 @@ export function ZClassroomApp() {
     </div>
   );
 
-  const _SchoolPage = lazy(() => import('../school/school-page'));
-  const _LessonsPage = lazy(() => import('../lessons/lessons-page'));
-  const _LessonPage = lazy(() => import('../lessons/lesson-page'));
+  const _SchoolPage = lazy(() => import('../school/school-page').then((m) => ({ default: m.ZSchoolPage })));
+  const _LessonsPage = lazy(() => import('../lessons/lessons-page').then((m) => ({ default: m.ZLessonsPage })));
+  const _LessonPage = lazy(() => import('../lessons/lesson-page').then((m) => ({ default: m.ZLessonPage })));
 
   const suspenseful = (Child: LazyExoticComponent<any>) => {
     return (
