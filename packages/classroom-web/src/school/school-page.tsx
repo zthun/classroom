@@ -78,3 +78,5 @@ export function ZSchoolPage() {
     </ZGrid>
   );
 }
+
+export default ZSchoolPage;

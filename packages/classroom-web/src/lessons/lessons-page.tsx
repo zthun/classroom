@@ -22,3 +22,5 @@ export function ZLessonsPage() {
     />
   );
 }
+
+export default ZLessonsPage;
