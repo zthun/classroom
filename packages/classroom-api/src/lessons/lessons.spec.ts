@@ -87,7 +87,7 @@ describe('LessonsApi', () => {
       const target = await createTestTarget();
       // Act.
       const actual = await request(target.getHttpServer()).get(
-        `/${endpoint}?filter=eq(courseId, ${$basics._id})&sort=asc(lessonNumber)`
+        `/${endpoint}?filter=eq(courseId, "${$basics._id}")&sort=asc(lessonNumber)`
       );
       // Assert.
       expect(actual.status).toEqual(ZHttpCodeSuccess.OK);
