@@ -1561,9 +1561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^10.3.2":
-  version: 10.3.2
-  resolution: "@nestjs/common@npm:10.3.2"
+"@nestjs/common@npm:^10.3.3":
+  version: 10.3.3
+  resolution: "@nestjs/common@npm:10.3.3"
   dependencies:
     iterare: "npm:1.2.1"
     tslib: "npm:2.6.2"
@@ -1578,13 +1578,13 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: f5ed8a3a8f10738bfd284e4b08c15701a3a904c6c3cc75967ef944e94abdf3e416b171e104e04bc6008219324dc96921010683d2cccb22f0282fa7711cdcb1f1
+  checksum: a2e3abfa48cfe10c88044be8d98c2fa8dca3a11a7176fbf968252e5f4e30e55a511d4b02c9162e9366545c8953353e69d302d40b577e821700248f4af4896244
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:^10.3.2":
-  version: 10.3.2
-  resolution: "@nestjs/core@npm:10.3.2"
+"@nestjs/core@npm:^10.3.3":
+  version: 10.3.3
+  resolution: "@nestjs/core@npm:10.3.3"
   dependencies:
     "@nuxtjs/opencollective": "npm:0.3.2"
     fast-safe-stringify: "npm:2.1.1"
@@ -1606,7 +1606,7 @@ __metadata:
       optional: true
     "@nestjs/websockets":
       optional: true
-  checksum: 093102f6a10fc84eb081250b5a8cfb4bb4a56a8ecb7026b3c289dff5e1b094eddcea6516c5ad5b74f96d2f762f90cd41b8b4aaa3aa0d251ed117a1b56dfcf26a
+  checksum: 6ef7c3695396d9178c5271168c0f14ab72d44304168c745fa26a6d476d46f890c6c0c71ca4fec47c8b6fcbcb7e8daec9b2cf3d87addfe51704d6e20246842b19
   languageName: node
   linkType: hard
 
@@ -1627,9 +1627,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-express@npm:^10.3.2":
-  version: 10.3.2
-  resolution: "@nestjs/platform-express@npm:10.3.2"
+"@nestjs/platform-express@npm:^10.3.3":
+  version: 10.3.3
+  resolution: "@nestjs/platform-express@npm:10.3.3"
   dependencies:
     body-parser: "npm:1.20.2"
     cors: "npm:2.8.5"
@@ -1639,7 +1639,7 @@ __metadata:
   peerDependencies:
     "@nestjs/common": ^10.0.0
     "@nestjs/core": ^10.0.0
-  checksum: 26c5c2c589920dbe5af9662374f65ba79bec58bd2a15a617487dae80987b02cca56023a7443c128690be3cb4211e9af1b00ae75a9a5214717ee7ec5d7f03144e
+  checksum: 004aabc89534bc429310edf94a0e48b5f90db5da83d25ad81946c7d34f378e48e08a8d05986e1674f0795bc3b8dbfb3a46643457ea1be9dd904778d23664d1f9
   languageName: node
   linkType: hard
 
@@ -1671,9 +1671,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/testing@npm:^10.3.2":
-  version: 10.3.2
-  resolution: "@nestjs/testing@npm:10.3.2"
+"@nestjs/testing@npm:^10.3.3":
+  version: 10.3.3
+  resolution: "@nestjs/testing@npm:10.3.3"
   dependencies:
     tslib: "npm:2.6.2"
   peerDependencies:
@@ -1686,7 +1686,7 @@ __metadata:
       optional: true
     "@nestjs/platform-express":
       optional: true
-  checksum: cf2589f517ea42209ff4dae8ed87d53d88f6c6b586f7e8a485cbdb937c51c82846c740149024731c8142c62a15d96630350801b6ec6e4eb544a22d0fabf63bb9
+  checksum: ae8176aeba18c13014f48f756e8ce1d69fb1f80cd15252877ac28c11e430c516d581230b2d21d55efb8d71f021eb276a8a0a35187815062b5bc514ea92cf6d0e
   languageName: node
   linkType: hard
 
@@ -2933,20 +2933,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/classroom-api@workspace:packages/classroom-api"
   dependencies:
-    "@nestjs/common": "npm:^10.3.2"
-    "@nestjs/core": "npm:^10.3.2"
-    "@nestjs/platform-express": "npm:^10.3.2"
+    "@nestjs/common": "npm:^10.3.3"
+    "@nestjs/core": "npm:^10.3.3"
+    "@nestjs/platform-express": "npm:^10.3.3"
     "@nestjs/swagger": "npm:^7.3.0"
-    "@nestjs/testing": "npm:^10.3.2"
+    "@nestjs/testing": "npm:^10.3.3"
     "@nestjs/throttler": "npm:^5.1.2"
     "@zthun/classroom-school": "npm:^1.0.0"
-    "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/dalmart-fs": "npm:^1.4.0"
-    "@zthun/dalmart-memory": "npm:^1.3.0"
+    "@zthun/dalmart-db": "npm:^1.4.1"
+    "@zthun/dalmart-fs": "npm:^1.4.1"
+    "@zthun/dalmart-memory": "npm:^1.4.1"
     "@zthun/helpful-fn": "npm:^3.3.0"
     "@zthun/helpful-node": "npm:^3.3.0"
     "@zthun/helpful-query": "npm:^3.3.1"
-    "@zthun/webigail-http": "npm:^2.3.0"
+    "@zthun/webigail-http": "npm:^2.4.0"
     helmet: "npm:^7.1.0"
     lodash: "npm:^4.17.21"
     nodemon: "npm:^3.0.3"
@@ -2985,9 +2985,9 @@ __metadata:
     "@zthun/fashion-theme": "npm:^2.7.0"
     "@zthun/helpful-fn": "npm:^3.3.0"
     "@zthun/helpful-query": "npm:^3.3.1"
-    "@zthun/webigail-http": "npm:^2.3.0"
-    "@zthun/webigail-rest": "npm:^2.3.0"
-    "@zthun/webigail-url": "npm:^2.3.0"
+    "@zthun/webigail-http": "npm:^2.4.0"
+    "@zthun/webigail-rest": "npm:^2.4.0"
+    "@zthun/webigail-url": "npm:^2.4.0"
     history: "npm:^5.3.0"
     lodash-es: "npm:^4.17.21"
     react: "npm:^18.2.0"
@@ -3028,61 +3028,61 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zthun/dalmart-db@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@zthun/dalmart-db@npm:1.3.0"
+"@zthun/dalmart-db@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@zthun/dalmart-db@npm:1.4.1"
   dependencies:
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    "@zthun/helpful-query": "npm:^3.0.0"
-  checksum: 0b719d2096df371a41348dfce4eac5cc152c9c1fbe7e8979cfa1c658df3b43c93b6c88a0f2c81711f73f4b08c3245f80f0619148b3a58a44eb22cefadba399ee
+    "@zthun/helpful-fn": "npm:^3.3.0"
+    "@zthun/helpful-query": "npm:^3.3.1"
+  checksum: 99eab15e75c5b52d0c86438e389dc4832c9607368120aea1783fa0f822c97556e0c5e9370eff8b324444137d434bc7fe3787c45f6b8aa2586ec55eb214e1113b
   languageName: node
   linkType: hard
 
-"@zthun/dalmart-fs@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@zthun/dalmart-fs@npm:1.4.0"
+"@zthun/dalmart-fs@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@zthun/dalmart-fs@npm:1.4.1"
   dependencies:
-    "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    "@zthun/helpful-query": "npm:^3.0.0"
+    "@zthun/dalmart-db": "npm:^1.4.1"
+    "@zthun/helpful-fn": "npm:^3.3.0"
+    "@zthun/helpful-query": "npm:^3.3.1"
     glob: "npm:^10.3.10"
     lodash-es: "npm:^4.17.21"
-  checksum: de280202229a3f8da47c9634c07e85424af808717d7225a37398c518d54a3a64d81c7abfe9aa57ea3f38128d264b3c0c8e3430b83e74b552ebc1513621fe998f
+  checksum: 2f9aa3f6e6f7d2500d2160840d80f53d969ce294b3b49b7cfddca153efc4db9cdf5a5eabd39bd608f63d51e1531b7b6657917122fec0abf1c5bafa0a54cffaae
   languageName: node
   linkType: hard
 
-"@zthun/dalmart-memory@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@zthun/dalmart-memory@npm:1.3.0"
+"@zthun/dalmart-memory@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@zthun/dalmart-memory@npm:1.4.1"
   dependencies:
-    "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/dalmart-mongo": "npm:^1.3.0"
-    "@zthun/dalmart-storage": "npm:^1.3.0"
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    mongodb-memory-server: "npm:^9.1.4"
-  checksum: 92dfbb519642f996787e6a7b8e5fd5cf8001b28f9752ebddd4b3b3a7307aa3834e5b86de4dcd9e1864272a55937c32c6654a17763ebf6bb7e3a9c08165dfa2bb
+    "@zthun/dalmart-db": "npm:^1.4.1"
+    "@zthun/dalmart-mongo": "npm:^1.4.1"
+    "@zthun/dalmart-storage": "npm:^1.4.1"
+    "@zthun/helpful-fn": "npm:^3.3.0"
+    mongodb-memory-server: "npm:^9.1.6"
+  checksum: a95e4bdb9bba855b9343e724a56691e4de9c77f6ac482414116f4681960e88a15706d6edc8079b58abe5dc0ec49d33b9a65c56b8cccee027b382e3dcd68dee96
   languageName: node
   linkType: hard
 
-"@zthun/dalmart-mongo@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@zthun/dalmart-mongo@npm:1.3.0"
+"@zthun/dalmart-mongo@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@zthun/dalmart-mongo@npm:1.4.1"
   dependencies:
-    "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    "@zthun/helpful-query": "npm:^3.0.0"
+    "@zthun/dalmart-db": "npm:^1.4.1"
+    "@zthun/helpful-fn": "npm:^3.3.0"
+    "@zthun/helpful-query": "npm:^3.3.1"
     mongodb: "npm:^6.3.0"
-  checksum: 295e9cb07d06e550675ae12333f50dd8b9f502985bdd497abe3d4b79126b4820f3823b9907fc5e17f4cf4057e89cc6b7d18df9df69c457ef7a326aaf422f346d
+  checksum: 7b441614765dd02446399535ff5778f894d7fb33ffb97013ae18af19ceb9b1b39e702bf5d5b4377475fcd5962903b84d049b2469cceac067af653d683c935d4a
   languageName: node
   linkType: hard
 
-"@zthun/dalmart-storage@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@zthun/dalmart-storage@npm:1.3.0"
+"@zthun/dalmart-storage@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@zthun/dalmart-storage@npm:1.4.1"
   dependencies:
-    "@zthun/dalmart-db": "npm:^1.3.0"
-    "@zthun/helpful-fn": "npm:^3.0.0"
-  checksum: f13528a8d37903da073914057510053237c1b8ed983f117efde61a7395a2df404eb490e586b9a96a37bd3c01cf48a00a470c0d995c386cede0b4304407209c93
+    "@zthun/dalmart-db": "npm:^1.4.1"
+    "@zthun/helpful-fn": "npm:^3.3.0"
+  checksum: b8ab2b61d5225f4144f77e90b8067a63332a4ade171eba75c1b6954c171f55046439157ecd1aa218296d0b58e74341b35f5e79f2d05c23f285002db49354647f
   languageName: node
   linkType: hard
 
@@ -3159,15 +3159,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/helpful-fn@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@zthun/helpful-fn@npm:3.0.0"
-  dependencies:
-    uuid: "npm:^9.0.1"
-  checksum: 7ad3a30f57c1a97188d4822f82d3ef8e296bdba72cd6fd62cee547d7e04404891e38a2541e12cc17947a4ca592b40442d4ae0c2129ec36b4c6966bb0fb167f70
-  languageName: node
-  linkType: hard
-
 "@zthun/helpful-fn@npm:^3.2.0":
   version: 3.2.0
   resolution: "@zthun/helpful-fn@npm:3.2.0"
@@ -3192,16 +3183,6 @@ __metadata:
   dependencies:
     "@zthun/helpful-fn": "npm:^3.3.0"
   checksum: e5b47f657aa14c0d30d4749918eced0fd4d989a57dc8774e694bedad2e56cdb120444390b0ac996b4331cefd5a65e707aece349820b51c391572c964930d01fb
-  languageName: node
-  linkType: hard
-
-"@zthun/helpful-query@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@zthun/helpful-query@npm:3.0.0"
-  dependencies:
-    "@zthun/helpful-fn": "npm:^3.0.0"
-    lodash: "npm:^4.17.21"
-  checksum: 4ff3c6b6ab754a061092771fc84515a0c9fc993629f03e91c46496d2ddbf8ad956f7ce8d90d63c0932e2d0e7b288188b83b74d11486686c8fb106d9e78940325
   languageName: node
   linkType: hard
 
@@ -3361,24 +3342,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/webigail-http@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@zthun/webigail-http@npm:2.3.0"
+"@zthun/webigail-http@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@zthun/webigail-http@npm:2.4.0"
   dependencies:
     cross-fetch: "npm:^4.0.0"
-  checksum: f10ca15d5dd3c83e5dabdd9061f7a2a8bb0e9703778e50ff6b99026141f41c2d88b7e0e4a04642545ccfce3f43b5d411526312738e39eb623c967cb5ffed14fa
+    lodash-es: "npm:^4.17.21"
+  checksum: 2becfff7a44994021895d5e7a001ed818481c708019df55dcb5dff9cada04488910d8b0335f1775c2bc9165c9bea29cb4a809bc65d0579a8929648c78a32d59b
   languageName: node
   linkType: hard
 
-"@zthun/webigail-rest@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@zthun/webigail-rest@npm:2.3.0"
+"@zthun/webigail-rest@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@zthun/webigail-rest@npm:2.4.0"
   dependencies:
     "@zthun/helpful-fn": "npm:^3.3.0"
     "@zthun/helpful-query": "npm:^3.3.1"
-    "@zthun/webigail-http": "npm:^2.3.0"
-    "@zthun/webigail-url": "npm:^2.3.0"
-  checksum: 1128e250b16c8298d410e339f23094ffb30937851604a73d897b1afb6f612ba812bebc2cee7925398dac8fd3701fdfd9286d1cb4a090f48f654b3316d17906e7
+    "@zthun/webigail-http": "npm:^2.4.0"
+    "@zthun/webigail-url": "npm:^2.4.0"
+  checksum: 894f34ebda065bbcd60e8d508834b3b174f6983971d7e562d431a9435da0918f1247b951f7c1b188d0639f9afdd007903464a551734c49e229dd718027cc065d
   languageName: node
   linkType: hard
 
@@ -3392,13 +3374,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zthun/webigail-url@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@zthun/webigail-url@npm:2.3.0"
+"@zthun/webigail-url@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@zthun/webigail-url@npm:2.4.0"
   dependencies:
+    buffer: "npm:^6.0.3"
     lodash-es: "npm:^4.17.21"
     url-parse: "npm:^1.5.10"
-  checksum: f26c41de901eebe9821861fad32ede7667e890f95c8375bfa54e036c5950f020a0ef928f77b8a593b26a94c4b4337eb0aa4dd9cd79b894338fd1ece055b2c876
+  checksum: f6a84e639f696855e4489b28fb3df56c1ae0a42e3c345215222290500aa7e939b55e22a499ec6bd3dee7d1c349bccf9b528e4e9c503939ab28c18dff6257e94b
   languageName: node
   linkType: hard
 
@@ -4062,6 +4045,16 @@ __metadata:
     base64-js: "npm:^1.3.1"
     ieee754: "npm:^1.1.13"
   checksum: 997434d3c6e3b39e0be479a80288875f71cd1c07d75a3855e6f08ef848a3c966023f79534e22e415ff3a5112708ce06127277ab20e527146d55c84566405c7c6
+  languageName: node
+  linkType: hard
+
+"buffer@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "buffer@npm:6.0.3"
+  dependencies:
+    base64-js: "npm:^1.3.1"
+    ieee754: "npm:^1.2.1"
+  checksum: b6bc68237ebf29bdacae48ce60e5e28fc53ae886301f2ad9496618efac49427ed79096750033e7eab1897a4f26ae374ace49106a5758f38fb70c78c9fda2c3b1
   languageName: node
   linkType: hard
 
@@ -7125,7 +7118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ieee754@npm:^1.1.13":
+"ieee754@npm:^1.1.13, ieee754@npm:^1.2.1":
   version: 1.2.1
   resolution: "ieee754@npm:1.2.1"
   checksum: d9f2557a59036f16c282aaeb107832dc957a93d73397d89bbad4eb1130560560eb695060145e8e6b3b498b15ab95510226649a0b8f52ae06583575419fe10fc4
@@ -8961,9 +8954,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb-memory-server-core@npm:9.1.4":
-  version: 9.1.4
-  resolution: "mongodb-memory-server-core@npm:9.1.4"
+"mongodb-memory-server-core@npm:9.1.6":
+  version: 9.1.6
+  resolution: "mongodb-memory-server-core@npm:9.1.6"
   dependencies:
     async-mutex: "npm:^0.4.0"
     camelcase: "npm:^6.3.0"
@@ -8977,17 +8970,17 @@ __metadata:
     tar-stream: "npm:^3.0.0"
     tslib: "npm:^2.6.2"
     yauzl: "npm:^2.10.0"
-  checksum: c0f0cfec9e7bede29a6a65080ff8c5f0c0730123a4baba7397696ba2d29df6d1dffee43873b784d5f56dae67d893aa2838ee4eed3b8034a165a1cc814bda27fb
+  checksum: 264b3dca8677afad498847170b411ffcb2fa3ffd5f9b6d202a04644854d0c392b07cbc951bdffa021fcc9e7a11faac49076819c7ff725da0db740d48034680e7
   languageName: node
   linkType: hard
 
-"mongodb-memory-server@npm:^9.1.4":
-  version: 9.1.4
-  resolution: "mongodb-memory-server@npm:9.1.4"
+"mongodb-memory-server@npm:^9.1.6":
+  version: 9.1.6
+  resolution: "mongodb-memory-server@npm:9.1.6"
   dependencies:
-    mongodb-memory-server-core: "npm:9.1.4"
+    mongodb-memory-server-core: "npm:9.1.6"
     tslib: "npm:^2.6.2"
-  checksum: 8ea2a727c4385144efde2bdd128716eb730a7f38537b827cb64d24e22cfce50ca80d85fe7404d19bd4ee303260eac01f298b27594bdf33bb846fd333733a3982
+  checksum: cd671420ad4ce731c357d5117ad44b9e777de21c34ffd757265acedadf6e1a56a49c43bd647d3147aa3346007fccded0220d1a5d7eed7d7dee0b8752a11d2278
   languageName: node
   linkType: hard
 
