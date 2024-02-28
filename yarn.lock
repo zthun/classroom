@@ -2972,6 +2972,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zthun/classroom-conclude@workspace:packages/classroom-conclude"
   dependencies:
+    "@zthun/helpful-fn": "npm:^3.10.0"
+    ts-node: "npm:^10.9.2"
     typescript: "npm:^5.3.3"
   bin:
     classroom-conclude: dist/cli.js

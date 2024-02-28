@@ -1,0 +1,36 @@
+{
+  "name": "@zthun/classroom-conclude",
+  "version": "1.0.0",
+  "description": "Displays Like, Subscribe, and Thanks for Watching",
+  "author": "Anthony Bonta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zthun/classroom",
+    "directory": "packages/classroom-conclude"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "debug": "node --loader ts-node/esm ./src/cli.ts",
+    "start": "node ./dist/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@zthun/helpful-fn": "^3.10.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "sideEffects": false
+}
