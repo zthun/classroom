@@ -33,3 +33,8 @@ RUN npm install -g @zthun/classroom-web
 
 FROM nginx:bookworm as classroom-web
 COPY --from=classroom-web-install /usr/local/lib/node_modules/@zthun/classroom-web/dist/. /usr/share/nginx/html/
+
+FROM node:lts-bullseye-slim as classroom-api
+RUN npm install -g @zthun/classroom-api
+EXPOSE 3000
+CMD ["classroom-api"]

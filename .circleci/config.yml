@@ -57,6 +57,8 @@ jobs:
             docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
             docker buildx create --use
             docker buildx build --target classroom-web -t zthun/classroom-web:latest -t zthun/classroom-web:$(npm show @zthun/classroom-web version) --progress=plain --platform linux/arm64,linux/amd64 --push .
+            docker buildx build --target classroom-api -t zthun/classroom-api:latest -t zthun/classroom-api:$(npm show @zthun/classroom-api version) --progress=plain --platform linux/arm64,linux/amd64 --push .
+
 workflows:
   make:
     jobs:
@@ -66,7 +68,7 @@ workflows:
           filters:
             branches:
               ignore:
-                - _latest
+                - latest
       - release:
           context:
             - credentials
@@ -76,7 +78,7 @@ workflows:
           filters:
             branches:
               only:
-                - _latest
+                - latest
       - dockerize:
           context:
             - credentials
