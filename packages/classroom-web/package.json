@@ -1,6 +1,6 @@
 {
   "name": "@zthun/classroom-web",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Zthunworks University (Not a real college).",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "@types/lodash-es": "^4.17.12",
     "@zthun/cirque": "^5.0.1",
     "@zthun/cirque-du-react": "^5.0.3",
-    "@zthun/classroom-school": "^1.0.0",
+    "@zthun/classroom-school": "^1.1.0",
     "@zthun/fashion-boutique": "^2.7.0",
     "@zthun/fashion-tailor": "^2.7.0",
     "@zthun/fashion-theme": "^2.7.0",
