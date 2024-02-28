@@ -3146,7 +3146,7 @@ __metadata:
     "@nestjs/swagger": "npm:^7.3.0"
     "@nestjs/testing": "npm:^10.3.3"
     "@nestjs/throttler": "npm:^5.1.2"
-    "@zthun/classroom-school": "npm:^1.0.0"
+    "@zthun/classroom-school": "npm:^1.1.0"
     "@zthun/dalmart-db": "npm:^1.4.1"
     "@zthun/dalmart-fs": "npm:^1.4.1"
     "@zthun/dalmart-memory": "npm:^1.4.1"
@@ -3181,7 +3181,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zthun/classroom-school@npm:^1.0.0, @zthun/classroom-school@workspace:packages/classroom-school":
+"@zthun/classroom-school@npm:^1.1.0, @zthun/classroom-school@workspace:packages/classroom-school":
   version: 0.0.0-use.local
   resolution: "@zthun/classroom-school@workspace:packages/classroom-school"
   dependencies:
@@ -3199,7 +3199,7 @@ __metadata:
     "@types/lodash-es": "npm:^4.17.12"
     "@zthun/cirque": "npm:^5.0.1"
     "@zthun/cirque-du-react": "npm:^5.0.3"
-    "@zthun/classroom-school": "npm:^1.0.0"
+    "@zthun/classroom-school": "npm:^1.1.0"
     "@zthun/fashion-boutique": "npm:^2.7.0"
     "@zthun/fashion-tailor": "npm:^2.7.0"
     "@zthun/fashion-theme": "npm:^2.7.0"
