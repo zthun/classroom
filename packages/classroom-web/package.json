@@ -27,8 +27,8 @@
     "@zthun/fashion-boutique": "^2.7.0",
     "@zthun/fashion-tailor": "^2.7.0",
     "@zthun/fashion-theme": "^2.7.0",
-    "@zthun/helpful-fn": "^3.3.0",
-    "@zthun/helpful-query": "^3.3.1",
+    "@zthun/helpful-fn": "^3.10.0",
+    "@zthun/helpful-query": "^3.10.0",
     "@zthun/webigail-http": "^2.4.0",
     "@zthun/webigail-rest": "^2.4.0",
     "@zthun/webigail-url": "^2.4.0",
@@ -36,8 +36,9 @@
     "lodash-es": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "vitest": "^1.2.2",
+    "react-router-dom": "^6.22.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1",
     "vitest-mock-extended": "^1.3.1"
   }
 }
