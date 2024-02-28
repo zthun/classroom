@@ -7,6 +7,7 @@
     "buildx",
     "Chakra",
     "choco",
+    "commitlint",
     "conventionalcommits",
     "dalmart",
     "Deno",
